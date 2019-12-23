@@ -22,7 +22,9 @@ class PhotosVC: UIViewController ,UICollectionViewDelegate , UICollectionViewDat
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let alignedFlowLayout = clcView?.collectionViewLayout as? AlignedCollectionViewFlowLayout
+        alignedFlowLayout?.horizontalAlignment = .left
+        alignedFlowLayout?.verticalAlignment = .top
         // Do any additional setup after loading the view.
         updateData()
         

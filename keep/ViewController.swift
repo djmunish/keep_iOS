@@ -64,7 +64,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
                         // Move to the main thread because a state update triggers UI changes.
                         DispatchQueue.main.async { [unowned self] in
                             self.state = .loggedin
-                            let vc = self.storyboard?.instantiateViewController(withIdentifier: "PhotosVC") as! PhotosVC
+                            let vc = self.storyboard?.instantiateViewController(withIdentifier: "FilesVC") as! FilesVC
                             self.navigationController?.pushViewController(vc, animated: true)
 
                         }
@@ -78,7 +78,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
                 }
             } else {
                 print(error?.localizedDescription ?? "Can't evaluate policy")
-
+                showAlertWithTitle(title: "Error", message: error?.localizedDescription ?? "Can't evaluate policy")
                 // Fall back to a asking for username and password.
                 // ...
             }
@@ -198,3 +198,10 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
     
 }
 
+extension NSLayoutConstraint {
+
+    override public var description: String {
+        let id = identifier ?? ""
+        return "id: \(id), constant: \(constant)" //you may print whatever you want here
+    }
+}
