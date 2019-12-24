@@ -17,6 +17,8 @@
 		5861C9EE23AD546E005C9E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5861C9EC23AD546E005C9E04 /* LaunchScreen.storyboard */; };
 		5861C9F623AD65F3005C9E04 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861C9F523AD65F3005C9E04 /* PhotosVC.swift */; };
 		5861C9F823AD6BD9005C9E04 /* ViewPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861C9F723AD6BD9005C9E04 /* ViewPhotoVC.swift */; };
+		58CEB1B123B22D6B004CAA7F /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CEB1B023B22D6B004CAA7F /* PhotoPicker.swift */; };
+		58CEB1B323B23CFA004CAA7F /* FileRW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CEB1B223B23CFA004CAA7F /* FileRW.swift */; };
 		58F37DC823B10AFD00F2037D /* AlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F37DC723B10AFC00F2037D /* AlignedCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		5861C9EF23AD546E005C9E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5861C9F523AD65F3005C9E04 /* PhotosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
 		5861C9F723AD6BD9005C9E04 /* ViewPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPhotoVC.swift; sourceTree = "<group>"; };
+		58CEB1B023B22D6B004CAA7F /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		58CEB1B223B23CFA004CAA7F /* FileRW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileRW.swift; sourceTree = "<group>"; };
 		58F37DC723B10AFC00F2037D /* AlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,20 +70,38 @@
 		5861C9E023AD546C005C9E04 /* keep */ = {
 			isa = PBXGroup;
 			children = (
-				58F37DC723B10AFC00F2037D /* AlignedCollectionViewFlowLayout.swift */,
 				5861C9E123AD546C005C9E04 /* AppDelegate.swift */,
 				5861C9E323AD546C005C9E04 /* SceneDelegate.swift */,
-				5861C9E523AD546C005C9E04 /* ViewController.swift */,
+				58CEB1B523B242BE004CAA7F /* Helper */,
+				58CEB1B423B242A7004CAA7F /* View Controller */,
 				5861C9E723AD546C005C9E04 /* Main.storyboard */,
-				585B0E6D23AF6BF7000046B8 /* FilesVC.swift */,
-				5861C9F523AD65F3005C9E04 /* PhotosVC.swift */,
-				5861C9F723AD6BD9005C9E04 /* ViewPhotoVC.swift */,
 				5861C9EA23AD546E005C9E04 /* Assets.xcassets */,
 				5861C9EC23AD546E005C9E04 /* LaunchScreen.storyboard */,
 				5861C9EF23AD546E005C9E04 /* Info.plist */,
-				58433BD123AEA9E1006E5CB3 /* PhotoModel.swift */,
 			);
 			path = keep;
+			sourceTree = "<group>";
+		};
+		58CEB1B423B242A7004CAA7F /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5861C9E523AD546C005C9E04 /* ViewController.swift */,
+				5861C9F523AD65F3005C9E04 /* PhotosVC.swift */,
+				585B0E6D23AF6BF7000046B8 /* FilesVC.swift */,
+				5861C9F723AD6BD9005C9E04 /* ViewPhotoVC.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		58CEB1B523B242BE004CAA7F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				58F37DC723B10AFC00F2037D /* AlignedCollectionViewFlowLayout.swift */,
+				58433BD123AEA9E1006E5CB3 /* PhotoModel.swift */,
+				58CEB1B023B22D6B004CAA7F /* PhotoPicker.swift */,
+				58CEB1B223B23CFA004CAA7F /* FileRW.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +177,11 @@
 			files = (
 				585B0E6E23AF6BF7000046B8 /* FilesVC.swift in Sources */,
 				58F37DC823B10AFD00F2037D /* AlignedCollectionViewFlowLayout.swift in Sources */,
+				58CEB1B123B22D6B004CAA7F /* PhotoPicker.swift in Sources */,
 				58433BD223AEA9E1006E5CB3 /* PhotoModel.swift in Sources */,
 				5861C9E623AD546C005C9E04 /* ViewController.swift in Sources */,
 				5861C9E223AD546C005C9E04 /* AppDelegate.swift in Sources */,
+				58CEB1B323B23CFA004CAA7F /* FileRW.swift in Sources */,
 				5861C9E423AD546C005C9E04 /* SceneDelegate.swift in Sources */,
 				5861C9F623AD65F3005C9E04 /* PhotosVC.swift in Sources */,
 				5861C9F823AD6BD9005C9E04 /* ViewPhotoVC.swift in Sources */,
@@ -307,6 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MX7G2R2T3E;
 				INFOPLIST_FILE = keep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +350,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MX7G2R2T3E;
 				INFOPLIST_FILE = keep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -17,7 +17,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
     enum AuthenticationState {
            case loggedin, loggedout
        }
-    
+    private lazy var imagePicker = PhotoPicker()
     var state = AuthenticationState.loggedout
 
     override func viewDidLoad() {
@@ -28,10 +28,11 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
 
         // Set the initial app state. This impacts the initial state of the UI as well.
         state = .loggedout
+        imagePicker.delegate = self
 
     }
 
-    
+    //MARK: - Button Actions
     @IBAction func open(_ sender: Any) {
         Authenticate()
     }
@@ -84,6 +85,13 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
             }
         }
     }
+    private func presentImagePicker(sourceType: UIImagePickerController.SourceType) {
+        imagePicker.present(parent: self, sourceType: sourceType)
+    }
+    @IBAction func importPhotos(_ sender: Any) {
+        imagePicker.photoGalleryAsscessRequest()
+    }
+        
     
     //MARK: TouchID error
     func errorMessage(errorCode:Int) -> String{
@@ -125,76 +133,6 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
         alert.addAction(actionOk)
         self.present(alert, animated: true, completion: nil)
     }
-
-    
-    @IBAction func importPhotos(_ sender: Any) {
-        if UIImagePickerController.isSourceTypeAvailable(.savedPhotosAlbum){
-            imagePickerController.allowsEditing = false
-            imagePickerController.sourceType = .photoLibrary
-            imagePickerController.delegate = self
-            present(imagePickerController, animated: true, completion: nil)
-        }
-    }
-    
-    
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        if let asset = info[UIImagePickerController.InfoKey.phAsset] as? PHAsset{
-            if let fileName = asset.value(forKey: "filename") as? String{
-            print(fileName)
-            }
-        }
-        let image = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
-        print(image)
-        
-        let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
-        
-         
-         let fileManager = FileManager.default
-
-         
-         let folderURL = documentsDirectory.appendingPathComponent("Photos")
-         if !fileManager.fileExists(atPath: folderURL.path) {
-             do {
-                 // Attempt to create folder
-                 try fileManager.createDirectory(atPath: folderURL.path,
-                                                 withIntermediateDirectories: true,
-                                                 attributes: nil)
-             } catch {
-                 // Creation failed. Print error & return nil
-                 print(error.localizedDescription)
-             }
-         }
-         
-         
-         // choose a name for your image
-         // create the destination file url to save your image
-        let fileURL = folderURL.appendingPathComponent(uniqueFilename(withPrefix: "Photo"))
-         // get your UIImage jpeg data representation and check if the destination file url already exists
-         if let data = image.jpegData(compressionQuality:  1.0),
-             !FileManager.default.fileExists(atPath: fileURL.path) {
-             do {
-                 // writes the image data to disk
-                 try data.write(to: fileURL)
-                 print("file saved")
-             } catch {
-                 print("error saving file:", error)
-             }
-         }
-        
-        
-        self.dismiss(animated: true, completion: nil)
-    }
-    
-    
-    func uniqueFilename(withPrefix prefix: String? = nil) -> String {
-        let uniqueString = ProcessInfo.processInfo.globallyUniqueString
-        
-        if prefix != nil {
-            return "\(prefix!)-\(uniqueString)" + ".jpg"
-        }
-        
-        return uniqueString
-    }
     
 }
 
@@ -203,5 +141,23 @@ extension NSLayoutConstraint {
     override public var description: String {
         let id = identifier ?? ""
         return "id: \(id), constant: \(constant)" //you may print whatever you want here
+    }
+}
+extension ViewController: ImagePickerDelegate {
+
+    func imagePickerDelegate(didSelect image: UIImage, delegatedForm: PhotoPicker) {
+        FileRW.shared.saveFile(image)
+        imagePicker.dismiss()
+    }
+
+    func imagePickerDelegate(didCancel delegatedForm: PhotoPicker) { imagePicker.dismiss() }
+
+    func imagePickerDelegate(canUseGallery accessIsAllowed: Bool, delegatedForm: PhotoPicker) {
+        if accessIsAllowed { presentImagePicker(sourceType: .photoLibrary) }
+    }
+
+    func imagePickerDelegate(canUseCamera accessIsAllowed: Bool, delegatedForm: PhotoPicker) {
+        // works only on real device (crash on simulator)
+        if accessIsAllowed { presentImagePicker(sourceType: .camera) }
     }
 }

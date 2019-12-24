@@ -15,6 +15,8 @@ class photocell: UICollectionViewCell {
 }
 
 class PhotosVC: UIViewController ,UICollectionViewDelegate , UICollectionViewDataSource{
+    @IBOutlet weak var placeHolderView: UIView!
+    private lazy var imagePicker = PhotoPicker()
 
     var updateList:(() -> Void)?
     var imageArray = [PhotoModel]()
@@ -27,32 +29,26 @@ class PhotosVC: UIViewController ,UICollectionViewDelegate , UICollectionViewDat
         alignedFlowLayout?.verticalAlignment = .top
         // Do any additional setup after loading the view.
         updateData()
-        
+        imagePicker.delegate = self
+
     }
-    
-    
     
     func updateData(){
-        let path = (NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString).appendingPathComponent("Photos")
-        let url = NSURL(string: path)
-        let fileManager = FileManager.default
-        let dirContents = try? fileManager.contentsOfDirectory(atPath: path)
-        if(dirContents != nil){
-        let nphoto = dirContents!.count
-            for i in 0..<nphoto {
-                let imagePath = url!.appendingPathComponent(dirContents![i])
-                let urlString: String = imagePath!.absoluteString
-                if fileManager.fileExists(atPath: urlString) {
-                    let image = UIImage(contentsOfFile: urlString)
-                    imageArray.append(PhotoModel.init(image!, dirContents![i], urlString))
-                } else {
-                    // print("No Image")
-                }
-            }
-        }
+        imageArray = FileRW.shared.readFiles(folderName:"Photos")
+        placeHolderView.isHidden = imageArray.count != 0
+    }
+    //MARK: - Button Action
+
+    @IBAction func addAction(_ sender: Any) {
+        imagePicker.photoGalleryAsscessRequest()
     }
     
     
+    private func presentImagePicker(sourceType: UIImagePickerController.SourceType) {
+        imagePicker.present(parent: self, sourceType: sourceType)
+    }
+    
+    //MARK: - CollectionView DataSoure and Delegate
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.imageArray.count
     }
@@ -94,4 +90,25 @@ class PhotosVC: UIViewController ,UICollectionViewDelegate , UICollectionViewDat
     }
     */
 
+}
+extension PhotosVC: ImagePickerDelegate {
+
+    func imagePickerDelegate(didSelect image: UIImage, delegatedForm: PhotoPicker) {
+        FileRW.shared.saveFile(image)
+        self.imageArray.removeAll()
+        self.updateData()
+        self.clcView.reloadData()
+        imagePicker.dismiss()
+    }
+
+    func imagePickerDelegate(didCancel delegatedForm: PhotoPicker) { imagePicker.dismiss() }
+
+    func imagePickerDelegate(canUseGallery accessIsAllowed: Bool, delegatedForm: PhotoPicker) {
+        if accessIsAllowed { presentImagePicker(sourceType: .photoLibrary) }
+    }
+
+    func imagePickerDelegate(canUseCamera accessIsAllowed: Bool, delegatedForm: PhotoPicker) {
+        // works only on real device (crash on simulator)
+        if accessIsAllowed { presentImagePicker(sourceType: .camera) }
+    }
 }

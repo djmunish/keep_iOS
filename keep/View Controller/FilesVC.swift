@@ -17,6 +17,7 @@ class FilesVC: UIViewController{
         alignedFlowLayout?.horizontalAlignment = .left
         alignedFlowLayout?.verticalAlignment = .top
         // Do any additional setup after loading the view.
+        
     }
     
 
