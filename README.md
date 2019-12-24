@@ -1,5 +1,5 @@
 # keep_iOS
-Many apps are available on app store with the feature to store photos with passcode. However, was always worried that might be they are uploading the content on there servers. So here I am providing you the totally transparent app for storing your secret content only in you device locked with you FaceID, TouchID or Passcode. 
+Many apps are available on app store with the feature to store photos with passcode. However, there is always a doubt whether they are saving it locally on device or uploading the content on there servers. Here is totally transparent app for storing your secret content only in your device locked with you FaceID, TouchID or Passcode. 
 
 
 ### Screenshots for various Screens
@@ -17,6 +17,7 @@ Many apps are available on app store with the feature to store photos with passc
 3) View Photos in full screen with zoom and pan feature.
 4) Share Photo on various app with ```iPhone Sharing Sheet```.
 5) Delete Photo from app.
+6)  No ```http requests``` for posting data on server.
 
 ### Installing the app
 1 Clone the ```repository```. </br>
