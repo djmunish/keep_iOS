@@ -7,21 +7,25 @@ PODS:
     - FLAnimatedImage-tvOS (>= 1.0.16)
   - AXStateButton (1.1.4)
   - FLAnimatedImage (1.0.12)
+  - OpalImagePicker (2.1.2)
 
 DEPENDENCIES:
   - AXPhotoViewer
+  - OpalImagePicker
 
 SPEC REPOS:
   trunk:
     - AXPhotoViewer
     - AXStateButton
     - FLAnimatedImage
+    - OpalImagePicker
 
 SPEC CHECKSUMS:
   AXPhotoViewer: f4b021c6e43b0b9dbc7b30cf8b9a4f577d0c1f51
   AXStateButton: 6c515a433e37551505046429b5be04c12daa8c07
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  OpalImagePicker: 51cbf714f337a93c2631219f1a90389ba936077f
 
-PODFILE CHECKSUM: 2a50e8c5429824a478a154f22e423b6cb16dbd75
+PODFILE CHECKSUM: 3cedfac9d15135ba7fe13adf1710767f9778b197
 
 COCOAPODS: 1.8.4

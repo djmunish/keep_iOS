@@ -7,4 +7,6 @@ target 'keep' do
 
   # Pods for keep
 pod 'AXPhotoViewer'
+pod 'OpalImagePicker'
+
 end

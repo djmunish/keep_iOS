@@ -2,3 +2,4 @@ ${PODS_ROOT}/Target Support Files/Pods-keep/Pods-keep-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/AXPhotoViewer/AXPhotoViewer.framework
 ${BUILT_PRODUCTS_DIR}/AXStateButton/AXStateButton.framework
 ${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework
+${BUILT_PRODUCTS_DIR}/OpalImagePicker/OpalImagePicker.framework

@@ -18,7 +18,7 @@ class photocell: UICollectionViewCell {
 class PhotosVC: UIViewController ,UICollectionViewDelegate , UICollectionViewDataSource{
     @IBOutlet weak var placeHolderView: UIView!
     private lazy var imagePicker = PhotoPicker()
-
+    var photosViewController: AXPhotosViewController!
     var updateList:(() -> Void)?
     var imageArray = [PhotoModel]()
     var photoAXArray = [AXPhoto]()
@@ -31,14 +31,11 @@ class PhotosVC: UIViewController ,UICollectionViewDelegate , UICollectionViewDat
         alignedFlowLayout?.verticalAlignment = .top
         // Do any additional setup after loading the view.
         updateData()
-        conversion()
         imagePicker.delegate = self
     }
     
     func conversion(){
-        
         for photo in imageArray{
-            
             let axPhoto = AXPhoto(attributedTitle: NSAttributedString(
                 string: photo.imageName!),
                 image: photo.image
@@ -51,6 +48,7 @@ class PhotosVC: UIViewController ,UICollectionViewDelegate , UICollectionViewDat
     
     func updateData(){
         imageArray = FileRW.shared.readFiles(folderName:"Photos")
+        conversion()
         placeHolderView.isHidden = imageArray.count != 0
     }
     //MARK: - Button Action
@@ -98,9 +96,65 @@ class PhotosVC: UIViewController ,UICollectionViewDelegate , UICollectionViewDat
         let dataSource = AXPhotosDataSource(photos: self.photoAXArray, initialPhotoIndex: indexPath.row)
         let photosViewController = AXPhotosViewController(dataSource: dataSource, pagingConfig: nil, transitionInfo: nil)
         photosViewController.modalPresentationStyle = .fullScreen
+        let flex = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+
+        let bottomView = UIToolbar(frame: CGRect(origin: .zero, size: CGSize(width: 320, height: 44)))
+        let barBtn = UIBarButtonItem(barButtonSystemItem: .trash, target: self, action: #selector(deleteFileMethod))
+        bottomView.items = [
+            flex,
+            flex,
+            flex,
+            barBtn,
+        ]
+        bottomView.backgroundColor = .clear
+        bottomView.setBackgroundImage(UIImage(), forToolbarPosition: .any, barMetrics: .default)
+        photosViewController.overlayView.bottomStackContainer.insertSubview(bottomView, at: 0) // insert custom
+
         self.present(photosViewController, animated: true)
     }
     
+    @objc func deleteFileMethod() {
+        let currVC = UIApplication.topViewController() as? AXPhotosViewController
+        
+        let alert = UIAlertController(title: "Delete?", message: "Do you want to delete this file?",
+                                      preferredStyle: UIAlertController.Style.alert)
+        
+        alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertAction.Style.default, handler: { _ in
+            //Cancel Action
+        }))
+        alert.addAction(UIAlertAction(title: "Delete",
+                                      style: UIAlertAction.Style.destructive,
+                                      handler: {(_: UIAlertAction!) in
+                                        let fileManager = FileManager.default
+                                        do {
+                                            
+                                            
+                                            let currPhoto = self.imageArray[currVC!.currentPhotoIndex]
+                                            print(currPhoto)
+                                            self.photoAXArray.remove(at: currVC!.currentPhotoIndex)
+                                            self.imageArray.remove(at: currVC!.currentPhotoIndex)
+                                            currVC?.dataSource = AXPhotosDataSource(photos: self.photoAXArray, initialPhotoIndex: currVC!.currentPhotoIndex == self.photoAXArray.count ? currVC!.currentPhotoIndex - 1 : currVC!.currentPhotoIndex)
+                                            
+                                            try fileManager.removeItem(atPath: currPhoto.path ?? "")
+                                            self.updateListMethod()
+                                            //                                            self.navigationController?.popViewController(animated: true)
+                                        }
+                                        catch let error as NSError {
+                                            print("Ooops! Something went wrong: \(error)")
+                                        }
+                                        
+        }))
+        currVC!.present(alert, animated: false, completion: nil)
+        
+    }
+    
+    
+    func updateListMethod(){
+        self.imageArray.removeAll()
+        self.photoAXArray.removeAll()
+        self.updateData()
+        self.clcView.reloadData()
+    }
 
     /*
     // MARK: - Navigation
@@ -133,4 +187,18 @@ extension PhotosVC: ImagePickerDelegate {
         // works only on real device (crash on simulator)
         if accessIsAllowed { presentImagePicker(sourceType: .camera) }
     }
+}
+extension UIApplication {
+  class func topViewController(controller: UIViewController? = UIApplication.shared.keyWindow?.rootViewController) -> UIViewController? {
+    if let tabController = controller as? UITabBarController {
+      return topViewController(controller: tabController.selectedViewController)
+    }
+    if let navController = controller as? UINavigationController {
+      return topViewController(controller: navController.visibleViewController)
+    }
+    if let presented = controller?.presentedViewController {
+      return topViewController(controller: presented)
+    }
+    return controller
+  }
 }

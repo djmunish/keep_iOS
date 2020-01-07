@@ -9,8 +9,9 @@
 import UIKit
 import LocalAuthentication
 import Photos
+import OpalImagePicker
 
-class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate
  {
     let imagePickerController = UIImagePickerController()
     var context = LAContext()
@@ -89,7 +90,11 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
         imagePicker.present(parent: self, sourceType: sourceType)
     }
     @IBAction func importPhotos(_ sender: Any) {
-        imagePicker.photoGalleryAsscessRequest()
+//        imagePicker.photoGalleryAsscessRequest()
+        let imagePicker = OpalImagePickerController()
+        imagePicker.imagePickerDelegate = self
+        imagePicker.maximumSelectionsAllowed = 10
+        present(imagePicker, animated: true, completion: nil)
     }
         
     
@@ -160,4 +165,32 @@ extension ViewController: ImagePickerDelegate {
         // works only on real device (crash on simulator)
         if accessIsAllowed { presentImagePicker(sourceType: .camera) }
     }
+}
+
+extension ViewController: OpalImagePickerControllerDelegate{
+    func imagePicker(_ picker: OpalImagePickerController, didFinishPickingAssets assets: [PHAsset]){
+        picker.dismiss(animated: true, completion: {
+            let requestOptions = PHImageRequestOptions()
+            requestOptions.resizeMode = PHImageRequestOptionsResizeMode.exact
+            requestOptions.deliveryMode = PHImageRequestOptionsDeliveryMode.highQualityFormat
+            // this one is key
+            requestOptions.isSynchronous = true
+            
+            for asset in assets{
+                if (asset.mediaType == PHAssetMediaType.image)
+                {
+                    
+                    PHImageManager.default().requestImage(for: asset , targetSize: PHImageManagerMaximumSize, contentMode: .default, options: requestOptions, resultHandler: { (pickedImage, info) in
+                            FileRW.shared.saveFile(pickedImage!)
+                    })
+                }
+            }
+            
+        })
+        
+    }
+    func imagePickerDidCancel(_ picker: OpalImagePickerController){
+        
+    }
+
 }

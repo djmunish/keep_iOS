@@ -7,83 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		047D8648EA947F736A4FCE7AA84646C6 /* AXNetworkIntegrationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749F446B6728526EF6F38C825DE975D /* AXNetworkIntegrationProtocol.swift */; };
-		04DF286D11CC28A8EA94A210842F3063 /* UIInterfaceOrientation+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129FBED61259D83C16E0C3B9282395E7 /* UIInterfaceOrientation+Transform.swift */; };
-		0A840B30CDA9E97C8B0C9CD1828D52C4 /* Data+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA51A50104282F2FCE037F112ACD7AE /* Data+GIF.swift */; };
+		047D8648EA947F736A4FCE7AA84646C6 /* AXNetworkIntegrationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05804D2CBF4012EFAA45AFF99CCD1CD2 /* AXNetworkIntegrationProtocol.swift */; };
+		04DF286D11CC28A8EA94A210842F3063 /* UIInterfaceOrientation+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060B8A9680E4EACA3D4A238A964AADB3 /* UIInterfaceOrientation+Transform.swift */; };
+		0A840B30CDA9E97C8B0C9CD1828D52C4 /* Data+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05CF5BCFF109574CCF364D1E4A77D1C /* Data+GIF.swift */; };
 		0B015A54D35ECD7229D20E8049492D59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8963B28F301C627DF338A764933B43 /* Foundation.framework */; };
-		0E5FFA746D551D00F24E28732E587511 /* AXPhotosPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FFF5060BDEE73038BBC62D338FE8B7 /* AXPhotosPresentationAnimator.swift */; };
-		12ABF8EB03A3A56B5DA222ECA91BEF33 /* AXStateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D97DEE5D1CA2D00960A9AAAAF15BFB /* AXStateButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E5FFA746D551D00F24E28732E587511 /* AXPhotosPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD669F7054763364CA3E9F431334816 /* AXPhotosPresentationAnimator.swift */; };
+		12ABF8EB03A3A56B5DA222ECA91BEF33 /* AXStateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 87112D326692F944BB9AE706758C8803 /* AXStateButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17E580A4D2C10DE1C5EFDC164EFADBFC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D103AE630102323312E5A1AF979FE81 /* ImageIO.framework */; };
-		17E6F5CDD54B0EDB8E460156096548F0 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA85CFC5A02A5836C473F88F8B3485 /* UIView+Animations.swift */; };
-		18D2C68E3F31438FF9249424EC0564F2 /* FLAnimatedImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB575801ED84FA84835239189D4FD2CF /* FLAnimatedImage-dummy.m */; };
-		2CAADDA6B89BC3817D50C963C7536721 /* AXPhotoViewer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CADC6A98950ED81A1C7207F000D652 /* AXPhotoViewer.xcassets */; };
-		2E7B08B43F978C6B2DDFFC37B265B665 /* AXTransitionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7242BA5B29A0814482242A8A300AA /* AXTransitionInfo.swift */; };
-		302EE70D3C627CCCFD3CC4B5CE65AF87 /* AXStateButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC3AB0E2EAF8A172CF7B90B8D2631A2 /* AXStateButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17E6F5CDD54B0EDB8E460156096548F0 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F807F5740DB73FE50209D0FA74F2578 /* UIView+Animations.swift */; };
+		182702F92A724A5127240EC801E4413C /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267F3B8BC26B39DFB5AFE78BF4A5B6CD /* UIView+Helper.swift */; };
+		18D2C68E3F31438FF9249424EC0564F2 /* FLAnimatedImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEB03C7305E4C2B4F6CEBF3A1026F69 /* FLAnimatedImage-dummy.m */; };
+		193F7C4DC7197AE12B020924E831E109 /* OpalImagePickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05034776D7FBBD971FFA38B8ED1AD45E /* OpalImagePickerConfiguration.swift */; };
+		25ED964E3082F6924C545978B432B8CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8963B28F301C627DF338A764933B43 /* Foundation.framework */; };
+		2CAADDA6B89BC3817D50C963C7536721 /* AXPhotoViewer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D67E4CAFA8D621B33C4C3296A896FE /* AXPhotoViewer.xcassets */; };
+		2DA07EAEA57FD87F194BCBA7EF645FBD /* TimeInterval+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA55D124183D0FE3E2024716393F6A /* TimeInterval+String.swift */; };
+		2E7B08B43F978C6B2DDFFC37B265B665 /* AXTransitionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7AFC488E631E302B79B171751F5380 /* AXTransitionInfo.swift */; };
+		2EB0702086D648A9E0BD16701E464B86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8963B28F301C627DF338A764933B43 /* Foundation.framework */; };
+		302EE70D3C627CCCFD3CC4B5CE65AF87 /* AXStateButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DEA5A8C0981226E6BA39D7BBF073D74 /* AXStateButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3194E99298E19EA0A939BAE3612EC8A9 /* Pods-keep-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E8016313721AD5C71BCA6AC69B0EB08 /* Pods-keep-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		322E7CE359EE6E934232877D12B2F96A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D054B23CA5B70AF35C5AB94822F5D741 /* MobileCoreServices.framework */; };
-		33DD8C106120857AB3FFBD5FDFBD87C4 /* AXPhotosTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B1940755A772FB52EE8485DB05091B /* AXPhotosTransitionAnimator.swift */; };
-		3694EB27A169F661C9CD70B9F6341B74 /* Pods-keep-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E8016313721AD5C71BCA6AC69B0EB08 /* Pods-keep-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33DD8C106120857AB3FFBD5FDFBD87C4 /* AXPhotosTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A77EA1B8358805A9A7652BDA79B3A8 /* AXPhotosTransitionAnimator.swift */; };
 		3D4DF62CCD17B3079F3209890E42DA15 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D103AE630102323312E5A1AF979FE81 /* ImageIO.framework */; };
 		472201DF9E2D2233CAE2F59FD406B92B /* AXStateButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874962201FB9781FBA37FF5C4D41D3F0 /* AXStateButton.framework */; };
-		4751C632063F2B6A3CD013C615E575C2 /* AXCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8265017DA84BCC97DD052313828C88D /* AXCaptionView.swift */; };
-		4955E38F4DE0C49E131EC387EA0F122F /* AXLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F053E69D7057F9F866046BCE615C034E /* AXLoadingView.swift */; };
-		4B8FC39CF40B80F20462E78501829298 /* AXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4BD065DD8252FFFBEA4174E5CDAE2 /* AXButton.swift */; };
+		4751C632063F2B6A3CD013C615E575C2 /* AXCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62235BAE643A2E1C26F74CDA575BC75E /* AXCaptionView.swift */; };
+		4955E38F4DE0C49E131EC387EA0F122F /* AXLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E6D8FB2FD476BC2800EBC96612610 /* AXLoadingView.swift */; };
+		4B8FC39CF40B80F20462E78501829298 /* AXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35589202CD98C642F53984611E53EC65 /* AXButton.swift */; };
 		4DEAC599BDD2F0CE3BB58F99EC00B5E1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D054B23CA5B70AF35C5AB94822F5D741 /* MobileCoreServices.framework */; };
-		4E26505354A072F3021E53EAAC18E0B7 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = E67A7A0DE999D75F69ABCFFF9DC445A5 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E45F5EE8709D4A9BAE4C39B448E71E9 /* FLAnimatedImageView+AXExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E1574ACB724325DDAC37BDDE471B8C /* FLAnimatedImageView+AXExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56B48E8823D72984083FD5BAE6C6B611 /* AXStackableViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEC714B89517E06CF2123CF0285E83 /* AXStackableViewContainer.swift */; };
-		581CF174DA9867721AEF2D4A0EE57AB0 /* Array+Sorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24D7C60BA76EDFC01F9589FF5034005 /* Array+Sorted.swift */; };
-		5A75B6E5F5865005535973344381B280 /* AXZoomingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6758701ADC514E27CA7C44F5D0CB4BE5 /* AXZoomingImageView.swift */; };
-		5F0E4B2F51DC78EB32D8D3BD1B238154 /* AXBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9354B0A8AC64F2BCCE2C2DE379C6DCF7 /* AXBundle.swift */; };
-		5F3D923F6BBAFA1860AD14DBCBEC9725 /* AXPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795EE01BF622E07071B3643B71C000FC /* AXPhotoViewController.swift */; };
-		6151A06460FBA05A9B6C6E020E70DECD /* AXPagingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138E1BA01047AACA8B1AA1E2C793E69 /* AXPagingConfig.swift */; };
+		4E26505354A072F3021E53EAAC18E0B7 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D91BAF7C1FA632180445ACE50B625A /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E45F5EE8709D4A9BAE4C39B448E71E9 /* FLAnimatedImageView+AXExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D179AA127517E8D3980CDAFEF402B517 /* FLAnimatedImageView+AXExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		543246B696A61633105865EB02B56FB7 /* ImagePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0569334398791D51D79A2EC155D976FE /* ImagePickerCollectionViewCell.swift */; };
+		56B48E8823D72984083FD5BAE6C6B611 /* AXStackableViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AE4EB5091526EF690F02910A11EA5C /* AXStackableViewContainer.swift */; };
+		581CF174DA9867721AEF2D4A0EE57AB0 /* Array+Sorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CCBD1A83A3A414536AC3DC76E20C5 /* Array+Sorted.swift */; };
+		5A75B6E5F5865005535973344381B280 /* AXZoomingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B49B4BB0C660B26BD417AC187710FEE /* AXZoomingImageView.swift */; };
+		5CA52A972C4753A01EE1DD8340153461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C8FA1C46CA6A2B05CDE73C457D7E2 /* Assets.xcassets */; };
+		5E16ACD493C8F71891EA61627F8BFDBA /* OpalImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCF47E58F81400FD5752AB7C56A981 /* OpalImagePickerController.swift */; };
+		5F0E4B2F51DC78EB32D8D3BD1B238154 /* AXBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107C49813C7EC4920B26D5DCB0118006 /* AXBundle.swift */; };
+		5F3D923F6BBAFA1860AD14DBCBEC9725 /* AXPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8901E43F23198943AC6056FD6C44BA35 /* AXPhotoViewController.swift */; };
+		6151A06460FBA05A9B6C6E020E70DECD /* AXPagingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F17D533257A48A2BB7C5C897FAA416 /* AXPagingConfig.swift */; };
 		69D3533DC75C9B2EDB911CDC74C545BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83C25154084F64E25313E1AE542CE4A /* CoreGraphics.framework */; };
+		6B74FA1EF67CECDD127A7C5C946E7A45 /* OpalImagePickerRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DF5FEE8BB82433DEE1EB3CC39826B /* OpalImagePickerRootViewController.swift */; };
 		6C843171572462172D5B2103ECA8E935 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDCE84337BD19EB1DF2ACFE6F744BB1 /* UIKit.framework */; };
-		6FF74FD7E413DEC9BADE6A1053FEEE35 /* AXPhotoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D009298E8AD788A9133D18E1CDB7A00D /* AXPhotoProtocol.swift */; };
-		72544F659AFDE92C82DD5E371D285805 /* AXConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A964A73A4CB7C0CCE4A17E2CF57374AA /* AXConstants.swift */; };
-		74CA7F88D145EE5551D6EAA428DDCDE9 /* AXPhotoViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9938C469D57876D6094241AB9A3E4B95 /* AXPhotoViewer-dummy.m */; };
-		76880DF6B42ABFDB1EA4D50CDB6220A8 /* AXPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6284AA54C1519CC4AF80D21FC2F0E1 /* AXPhotosViewController.swift */; };
+		6FF74FD7E413DEC9BADE6A1053FEEE35 /* AXPhotoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A3EB53CA6F1BA724DBE675919AF493 /* AXPhotoProtocol.swift */; };
+		72544F659AFDE92C82DD5E371D285805 /* AXConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE4B7A1B380EE776CF16159CDBE5BE4 /* AXConstants.swift */; };
+		74CA7F88D145EE5551D6EAA428DDCDE9 /* AXPhotoViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049FC097B1826652903D02639E333C9 /* AXPhotoViewer-dummy.m */; };
+		76880DF6B42ABFDB1EA4D50CDB6220A8 /* AXPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F9BF9FF214CB265725AD776D49436B /* AXPhotosViewController.swift */; };
 		7BACB3DE54A85A947507FEAFFF301FD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8963B28F301C627DF338A764933B43 /* Foundation.framework */; };
-		7C52F3C949802DEC6528685401A03B3B /* AXDispatchUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941CAC197B742ECF24820FF13F724AB1 /* AXDispatchUtils.swift */; };
-		895A1451CCF307672CC0BE62065F8D1F /* AXStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1C819C97E272F1FCC3C57293013CA /* AXStateButton.m */; };
-		8A3A74921E8D22768822F1E54324AF4B /* AXPageableViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249320706E771DC428CFDC85C5F9BA2A /* AXPageableViewControllerProtocol.swift */; };
-		92BBE36EC82884F69EEE412AA0D35E99 /* AXOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A9977EE1C6E17DDC009ABDC015196C /* AXOverlayView.swift */; };
-		94CD5F5B593419FC71B19771B7270EB1 /* UIImageView+AXExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 269424A39CAF12BCAF26EE50BA8905F6 /* UIImageView+AXExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9797E41272C85FC66FA1A10FC8CB95D2 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0B5D8BF80CE6B12A767A484BFDE79F /* FLAnimatedImageView.m */; };
-		9A57B66F437965DF2F14A9E12A8F7321 /* Pods-keep-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B46840BCC7EB7D9B3E7624A239B844 /* Pods-keep-dummy.m */; };
+		7C52F3C949802DEC6528685401A03B3B /* AXDispatchUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458E5787E2E9F20B65AC39FA1382A81F /* AXDispatchUtils.swift */; };
+		895A1451CCF307672CC0BE62065F8D1F /* AXStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D74F95DA2CD4A9E021C67DB2FF599F /* AXStateButton.m */; };
+		8A3A74921E8D22768822F1E54324AF4B /* AXPageableViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D923ABA74E6173BD2F51B440A8FC2 /* AXPageableViewControllerProtocol.swift */; };
+		92BBE36EC82884F69EEE412AA0D35E99 /* AXOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4654A0C7FE4FA6732394D9A7B5BDD65 /* AXOverlayView.swift */; };
+		94CD5F5B593419FC71B19771B7270EB1 /* UIImageView+AXExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7AC01359A9AC3FBF2429FBDF6466A2 /* UIImageView+AXExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		966D8B2C8210886CF2043473BB3AEC8B /* OpalImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBCEC5EEBE5D01B032F560A309C0AF1 /* OpalImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9797E41272C85FC66FA1A10FC8CB95D2 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1476C64AB710E4B5F2B8DA3D3401 /* FLAnimatedImageView.m */; };
+		9AB672ADF465D86F3819B37B0232D759 /* OpalImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB0F2E7AB295F5A7589FBC7F6D21A31 /* OpalImagePicker-dummy.m */; };
 		9D47859993D2E54E8E73CEFD8B3E5BAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8963B28F301C627DF338A764933B43 /* Foundation.framework */; };
-		A50FEB103859548800D99F13B82FCD0B /* AXPhotoViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69230165CB2FF16316931DCC1EC1ED76 /* AXPhotoViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A69215CA267BF17CA814D6ED82A52244 /* AXPhotoProtocol+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E188BE3E0DE539314CCAE6ACA2843A /* AXPhotoProtocol+Internal.swift */; };
-		A8639718CB3FF2168511152CE253FF6B /* AXCaptionViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105046D072B504396CB3735A3A523A79 /* AXCaptionViewProtocol.swift */; };
-		AD20CF1194D615C4442D3D8B3CC486E7 /* UIImageView+AXExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D1813CB5B86A4ABA6C3C0C1DBEADE842 /* UIImageView+AXExtensions.m */; };
-		B3196A61F8BF8BA816CFDECB36583A17 /* AXTransitionUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73A140FC7A9A5A569623DF500E52E2F /* AXTransitionUtils.swift */; };
-		B4C4400727D106393DE9ACA95936B3A9 /* AXPreviewingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D4919C2B49B51636F1F138AED74E4 /* AXPreviewingPhotosViewController.swift */; };
-		B576402BC11DEDC40AEB3522A014B963 /* FLAnimatedImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCCF86AE77BC4E04EA12F6E25FDA08AD /* FLAnimatedImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B64033F88DBEF296B44DC23DBE03EB35 /* SimpleNetworkIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019ED53F3570176F49BC669444B694C /* SimpleNetworkIntegration.swift */; };
+		A46A63DCB2EF79342628BA73796A5EFE /* Bundle+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B329E5C4326FDEA1AB9AE30802FA1 /* Bundle+Helper.swift */; };
+		A50FEB103859548800D99F13B82FCD0B /* AXPhotoViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5920E2EB6F0A20228A70FEC2AE6A09C6 /* AXPhotoViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A69215CA267BF17CA814D6ED82A52244 /* AXPhotoProtocol+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30EE147E59A076E23B589D6D1805A4 /* AXPhotoProtocol+Internal.swift */; };
+		A8639718CB3FF2168511152CE253FF6B /* AXCaptionViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3770F05EC9C3B40E15CE28C2BADC7EEF /* AXCaptionViewProtocol.swift */; };
+		AD20CF1194D615C4442D3D8B3CC486E7 /* UIImageView+AXExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F833EA699A0B6E1B8E78AB2DB4BC77 /* UIImageView+AXExtensions.m */; };
+		B3196A61F8BF8BA816CFDECB36583A17 /* AXTransitionUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE184CD5EEF6BBC98C0252A0992705B7 /* AXTransitionUtils.swift */; };
+		B4C4400727D106393DE9ACA95936B3A9 /* AXPreviewingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA3EBD545161D9FDA47A1E3AB1B0E3E /* AXPreviewingPhotosViewController.swift */; };
+		B576402BC11DEDC40AEB3522A014B963 /* FLAnimatedImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFF7CFB92D24A8E69E8FD415EEC17A8 /* FLAnimatedImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B64033F88DBEF296B44DC23DBE03EB35 /* SimpleNetworkIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074005AD737419992600CFA9305555A /* SimpleNetworkIntegration.swift */; };
 		BA4B1C9327F5248D8E2764C5758E0E36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDCE84337BD19EB1DF2ACFE6F744BB1 /* UIKit.framework */; };
-		BF89BEE3B199E3FA86CB02128EFDDEE6 /* AXImageViewTransitionContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E6AE75E9B11670F611BC330B82649 /* AXImageViewTransitionContainer.swift */; };
-		C35C9717D7435168B44CD3ABCB2C1BDB /* FLAnimatedImageView+AXExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26ED21FD878F93BC9EE70365068846 /* FLAnimatedImageView+AXExtensions.m */; };
-		C6CEDA4B6A3DA3ABC81222CD8CB787FC /* AXPhotosDismissalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33170FFACA3A7E86712F54384466DD /* AXPhotosDismissalAnimator.swift */; };
-		CDB7A13AEEBD14F895E79135F48DF1AE /* AXOverlayTitleViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F1FE9B71484C0C707CDA674565271D /* AXOverlayTitleViewProtocol.swift */; };
-		CF4EA757E3793250C3F4954007F5BA61 /* AXPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B536BF9A3E4850676E83D3FD124813A /* AXPhoto.swift */; };
+		BF89BEE3B199E3FA86CB02128EFDDEE6 /* AXImageViewTransitionContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABAEB58E00DC11080AEB130D7C304D /* AXImageViewTransitionContainer.swift */; };
+		C35C9717D7435168B44CD3ABCB2C1BDB /* FLAnimatedImageView+AXExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B507563DA9639A1BB1413EBFF25A12FC /* FLAnimatedImageView+AXExtensions.m */; };
+		C6CEDA4B6A3DA3ABC81222CD8CB787FC /* AXPhotosDismissalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE66B05723BA8BF0A646BACC3D555C2 /* AXPhotosDismissalAnimator.swift */; };
+		CDB7A13AEEBD14F895E79135F48DF1AE /* AXOverlayTitleViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36741C6B930D0FC23DD014E585718FE /* AXOverlayTitleViewProtocol.swift */; };
+		CF4EA757E3793250C3F4954007F5BA61 /* AXPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8E73D469E2C473DCF179C2D2143BCE /* AXPhoto.swift */; };
 		D11EAB10C8432F36F9C8222E7ABB3E0D /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410344873DFC17B9AFE5A0AC63011F0A /* FLAnimatedImage.framework */; };
-		D55FFCBA7745A59C04E1C5454FD14316 /* AXLoadingViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF880C4CCB180BBE0C0391AEF195A4 /* AXLoadingViewProtocol.swift */; };
-		DCD9C779F077B51749E07A4A80042C95 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1094C9129098D1BA7BABCA73C9653C /* FLAnimatedImage.m */; };
-		E39C6AED7356501D47166571FFBFB5A2 /* AXPhotosTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB712492C9380ABF5D5383CEE96BE38 /* AXPhotosTransitionController.swift */; };
+		D1C6B8D3D655BF7FB6BBFBEADBB5E286 /* Pods-keep-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B46840BCC7EB7D9B3E7624A239B844 /* Pods-keep-dummy.m */; };
+		D55FFCBA7745A59C04E1C5454FD14316 /* AXLoadingViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC68E5571F3C7E0C47C6C6B2787F920 /* AXLoadingViewProtocol.swift */; };
+		DCD9C779F077B51749E07A4A80042C95 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA1FB120C3437B0E9B5E034229C7637 /* FLAnimatedImage.m */; };
+		DDA7B79781C87AC4564E329864C86E03 /* OpalImagePickerResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 598756CCCB40FC98DA122084B3B8C925 /* OpalImagePickerResources.bundle */; };
+		E39C6AED7356501D47166571FFBFB5A2 /* AXPhotosTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87642630F3963BEAA3546B8DE405442C /* AXPhotosTransitionController.swift */; };
 		E42DF65A18778413C68942C13CA50C01 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8539BC8DDC17BCB55611F9E868DBD7 /* QuartzCore.framework */; };
-		E5A26D9A573DDFE14D6CAAF192D8ADC1 /* AXPhotosDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B985EC2AE446C03A28B7541210D63234 /* AXPhotosDataSource.swift */; };
-		EB356DFCEEF143D09605B52829EB37FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8963B28F301C627DF338A764933B43 /* Foundation.framework */; };
+		E5A26D9A573DDFE14D6CAAF192D8ADC1 /* AXPhotosDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D18BF15BBD03DEC1ADB3E244D14BAC5 /* AXPhotosDataSource.swift */; };
 		EF4367310F0D11937EFBB87426BC383A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8539BC8DDC17BCB55611F9E868DBD7 /* QuartzCore.framework */; };
-		F08E4EFC6F3C1FDD89C3E1D1E73DF957 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A51C850B8D1BF75C16BE8B502A147C /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE3C5B607B4AB9DB72386F8BEC9E940D /* AXStateButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B01FFACB7EECDAE8E429C18331654A0D /* AXStateButton-dummy.m */; };
+		F08E4EFC6F3C1FDD89C3E1D1E73DF957 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F144C1E9B403B96843FE782D8D7E0751 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F280818D406E8A8EA72FA68118D4096E /* OpalImagePickerCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB39B588F9D6FE7F332BF0087D574ED /* OpalImagePickerCollectionViewLayout.swift */; };
+		F426C75560D8E8990E643FD9DE4743FA /* UIViewController+OpalImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3399F720789080349D8EC6388A885BC7 /* UIViewController+OpalImagePicker.swift */; };
+		FE3C5B607B4AB9DB72386F8BEC9E940D /* AXStateButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB80EB3BF35809FEFF8273B3EBA004C /* AXStateButton-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		15E71C0209C3CAA5C45354379E0883CB /* PBXContainerItemProxy */ = {
+		0A7B63CAA82DC181F603BB60399EAA36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4A8E8992707D01510894596DB9BCCA00;
-			remoteInfo = FLAnimatedImage;
+			remoteGlobalIDString = 20485D6CEA89F18A813D04A2DFF7D56F;
+			remoteInfo = OpalImagePicker;
 		};
 		1A95A0864D7625D0A4704B8957F75D4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -92,12 +106,12 @@
 			remoteGlobalIDString = 4A8E8992707D01510894596DB9BCCA00;
 			remoteInfo = FLAnimatedImage;
 		};
-		746F2EACB9D7D170D73DAF015F30AADE /* PBXContainerItemProxy */ = {
+		24080B14595519E138A83344A28C6FCB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 31CAD8EB79EF8AD8BFBFAC94A240A428;
-			remoteInfo = AXStateButton;
+			remoteGlobalIDString = 265D78AF28F751DE873B43A5E2BFD8C2;
+			remoteInfo = "OpalImagePicker-OpalImagePickerResources";
 		};
 		788742BB347584F8A3FC32D76FCA9926 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -106,7 +120,21 @@
 			remoteGlobalIDString = 31CAD8EB79EF8AD8BFBFAC94A240A428;
 			remoteInfo = AXStateButton;
 		};
-		A239BF7062C84A393056C442FF1EA4D8 /* PBXContainerItemProxy */ = {
+		C879758B2B0443138375D4A7D61F40AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31CAD8EB79EF8AD8BFBFAC94A240A428;
+			remoteInfo = AXStateButton;
+		};
+		E5A47248D6F0EB02A248A2F18313E71C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A8E8992707D01510894596DB9BCCA00;
+			remoteInfo = FLAnimatedImage;
+		};
+		F2E151F09F8E6A5E43600B1512ED6B98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -117,98 +145,117 @@
 
 /* Begin PBXFileReference section */
 		02B46840BCC7EB7D9B3E7624A239B844 /* Pods-keep-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-keep-dummy.m"; sourceTree = "<group>"; };
-		0C1094C9129098D1BA7BABCA73C9653C /* FLAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = FLAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
+		039F8F119156FF0D0F73AA92517B826A /* OpalImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OpalImagePicker-Info.plist"; sourceTree = "<group>"; };
+		05034776D7FBBD971FFA38B8ED1AD45E /* OpalImagePickerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpalImagePickerConfiguration.swift; path = OpalImagePicker/Source/OpalImagePickerConfiguration.swift; sourceTree = "<group>"; };
+		0569334398791D51D79A2EC155D976FE /* ImagePickerCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePickerCollectionViewCell.swift; path = OpalImagePicker/Source/ImagePickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		05804D2CBF4012EFAA45AFF99CCD1CD2 /* AXNetworkIntegrationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXNetworkIntegrationProtocol.swift; path = Source/Protocols/AXNetworkIntegrationProtocol.swift; sourceTree = "<group>"; };
+		060B8A9680E4EACA3D4A238A964AADB3 /* UIInterfaceOrientation+Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIInterfaceOrientation+Transform.swift"; path = "Source/Extensions/UIInterfaceOrientation+Transform.swift"; sourceTree = "<group>"; };
+		077B329E5C4326FDEA1AB9AE30802FA1 /* Bundle+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Helper.swift"; path = "OpalImagePicker/Source/Bundle+Helper.swift"; sourceTree = "<group>"; };
+		0D3DF5FEE8BB82433DEE1EB3CC39826B /* OpalImagePickerRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpalImagePickerRootViewController.swift; path = OpalImagePicker/Source/OpalImagePickerRootViewController.swift; sourceTree = "<group>"; };
 		0D826DE9DDF1A9D3F71F003CBEA5644E /* Pods_keep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_keep.framework; path = "Pods-keep.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB80EB3BF35809FEFF8273B3EBA004C /* AXStateButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXStateButton-dummy.m"; sourceTree = "<group>"; };
 		0E8963B28F301C627DF338A764933B43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		105046D072B504396CB3735A3A523A79 /* AXCaptionViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXCaptionViewProtocol.swift; path = Source/Protocols/AXCaptionViewProtocol.swift; sourceTree = "<group>"; };
-		1138E1BA01047AACA8B1AA1E2C793E69 /* AXPagingConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPagingConfig.swift; path = Source/Classes/Models/AXPagingConfig.swift; sourceTree = "<group>"; };
-		11D97DEE5D1CA2D00960A9AAAAF15BFB /* AXStateButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXStateButton.h; path = Source/AXStateButton.h; sourceTree = "<group>"; };
-		129FBED61259D83C16E0C3B9282395E7 /* UIInterfaceOrientation+Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIInterfaceOrientation+Transform.swift"; path = "Source/Extensions/UIInterfaceOrientation+Transform.swift"; sourceTree = "<group>"; };
+		0F807F5740DB73FE50209D0FA74F2578 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "Source/Extensions/UIView+Animations.swift"; sourceTree = "<group>"; };
+		107C49813C7EC4920B26D5DCB0118006 /* AXBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXBundle.swift; path = Source/AXBundle.swift; sourceTree = "<group>"; };
+		186BAE98AECD749E588687755E85D028 /* FLAnimatedImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLAnimatedImage-Info.plist"; sourceTree = "<group>"; };
+		18D67E4CAFA8D621B33C4C3296A896FE /* AXPhotoViewer.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AXPhotoViewer.xcassets; path = Assets/AXPhotoViewer.xcassets; sourceTree = "<group>"; };
 		196435893A172BF1920C56BCB8D75446 /* Pods-keep-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-keep-frameworks.sh"; sourceTree = "<group>"; };
-		1AB712492C9380ABF5D5383CEE96BE38 /* AXPhotosTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosTransitionController.swift; path = "Source/Classes/Transition Controller + Animators/AXPhotosTransitionController.swift"; sourceTree = "<group>"; };
-		1F1AB320F16EC7642A78899D20D3D530 /* AXStateButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AXStateButton-Info.plist"; sourceTree = "<group>"; };
-		249320706E771DC428CFDC85C5F9BA2A /* AXPageableViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPageableViewControllerProtocol.swift; path = Source/Protocols/AXPageableViewControllerProtocol.swift; sourceTree = "<group>"; };
-		269424A39CAF12BCAF26EE50BA8905F6 /* UIImageView+AXExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AXExtensions.h"; path = "Source/Extensions/UIImageView+AXExtensions.h"; sourceTree = "<group>"; };
-		279F2EAAE13E022F41DE239FE79FDB44 /* AXStateButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXStateButton.xcconfig; sourceTree = "<group>"; };
-		27FFF5060BDEE73038BBC62D338FE8B7 /* AXPhotosPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosPresentationAnimator.swift; path = "Source/Classes/Transition Controller + Animators/AXPhotosPresentationAnimator.swift"; sourceTree = "<group>"; };
+		1B2C8FA1C46CA6A2B05CDE73C457D7E2 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = OpalImagePicker/SupportingFiles/Assets.xcassets; sourceTree = "<group>"; };
+		267F3B8BC26B39DFB5AFE78BF4A5B6CD /* UIView+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Helper.swift"; path = "OpalImagePicker/Source/UIView+Helper.swift"; sourceTree = "<group>"; };
+		29F9BF9FF214CB265725AD776D49436B /* AXPhotosViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosViewController.swift; path = "Source/Classes/View Controllers/AXPhotosViewController.swift"; sourceTree = "<group>"; };
+		2BE4B7A1B380EE776CF16159CDBE5BE4 /* AXConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXConstants.swift; path = Source/AXConstants.swift; sourceTree = "<group>"; };
+		2C8E73D469E2C473DCF179C2D2143BCE /* AXPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhoto.swift; path = Source/Classes/Models/AXPhoto.swift; sourceTree = "<group>"; };
+		2F57364D94B17BF5EC282F0735A204B1 /* AXPhotoViewer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AXPhotoViewer-Info.plist"; sourceTree = "<group>"; };
+		2FFF7CFB92D24A8E69E8FD415EEC17A8 /* FLAnimatedImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-umbrella.h"; sourceTree = "<group>"; };
 		326B09BFC132A6C0C8EF8F381BA77FD7 /* Pods-keep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-keep.debug.xcconfig"; sourceTree = "<group>"; };
-		339D4919C2B49B51636F1F138AED74E4 /* AXPreviewingPhotosViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPreviewingPhotosViewController.swift; path = "Source/Classes/View Controllers/AXPreviewingPhotosViewController.swift"; sourceTree = "<group>"; };
-		3749F446B6728526EF6F38C825DE975D /* AXNetworkIntegrationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXNetworkIntegrationProtocol.swift; path = Source/Protocols/AXNetworkIntegrationProtocol.swift; sourceTree = "<group>"; };
-		3AC1C819C97E272F1FCC3C57293013CA /* AXStateButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXStateButton.m; path = Source/AXStateButton.m; sourceTree = "<group>"; };
+		3399F720789080349D8EC6388A885BC7 /* UIViewController+OpalImagePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+OpalImagePicker.swift"; path = "OpalImagePicker/Source/UIViewController+OpalImagePicker.swift"; sourceTree = "<group>"; };
+		33A3EB53CA6F1BA724DBE675919AF493 /* AXPhotoProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotoProtocol.swift; path = Source/Protocols/AXPhotoProtocol.swift; sourceTree = "<group>"; };
+		35589202CD98C642F53984611E53EC65 /* AXButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXButton.swift; path = Source/Classes/Controls/AXButton.swift; sourceTree = "<group>"; };
+		3770F05EC9C3B40E15CE28C2BADC7EEF /* AXCaptionViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXCaptionViewProtocol.swift; path = Source/Protocols/AXCaptionViewProtocol.swift; sourceTree = "<group>"; };
+		3B49B4BB0C660B26BD417AC187710FEE /* AXZoomingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXZoomingImageView.swift; path = Source/Classes/Views/AXZoomingImageView.swift; sourceTree = "<group>"; };
 		3D103AE630102323312E5A1AF979FE81 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		410344873DFC17B9AFE5A0AC63011F0A /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42F314999CC5BF86D88D481DC97FBD2A /* AXPhotoViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXPhotoViewer.modulemap; sourceTree = "<group>"; };
+		458E5787E2E9F20B65AC39FA1382A81F /* AXDispatchUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXDispatchUtils.swift; path = Source/Utilities/AXDispatchUtils.swift; sourceTree = "<group>"; };
 		46036D6EED820F1A473D082055C51F83 /* Pods-keep-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-keep-Info.plist"; sourceTree = "<group>"; };
-		4662DF07BF031D35E414B295702C9E46 /* AXStateButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXStateButton-prefix.pch"; sourceTree = "<group>"; };
+		484151C077E2CEBBCACC4EBBF7727D98 /* OpalImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpalImagePicker.framework; path = OpalImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F33B8E9F258A1278C9CC14A691D668 /* AXPhotoViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXPhotoViewer.framework; path = AXPhotoViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C26ED21FD878F93BC9EE70365068846 /* FLAnimatedImageView+AXExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FLAnimatedImageView+AXExtensions.m"; path = "Source/Extensions/FLAnimatedImageView+AXExtensions.m"; sourceTree = "<group>"; };
+		4CBCEC5EEBE5D01B032F560A309C0AF1 /* OpalImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpalImagePicker-umbrella.h"; sourceTree = "<group>"; };
 		4D8539BC8DDC17BCB55611F9E868DBD7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		4DEA5A8C0981226E6BA39D7BBF073D74 /* AXStateButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXStateButton-umbrella.h"; sourceTree = "<group>"; };
+		5418A80AA2691A3465BDAC1B06A4E88C /* FLAnimatedImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLAnimatedImage.xcconfig; sourceTree = "<group>"; };
 		547D2BCAEEAB8CB28702F75716ABC333 /* Pods-keep-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-keep-acknowledgements.plist"; sourceTree = "<group>"; };
-		5CE7242BA5B29A0814482242A8A300AA /* AXTransitionInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXTransitionInfo.swift; path = Source/Classes/Models/AXTransitionInfo.swift; sourceTree = "<group>"; };
-		5DEA53B063F892885FFAB44F27E788CF /* AXPhotoViewer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AXPhotoViewer-Info.plist"; sourceTree = "<group>"; };
+		57A58544EB2C39F12A04B226C99DFE3A /* AXStateButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AXStateButton-Info.plist"; sourceTree = "<group>"; };
+		5920E2EB6F0A20228A70FEC2AE6A09C6 /* AXPhotoViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXPhotoViewer-umbrella.h"; sourceTree = "<group>"; };
+		598756CCCB40FC98DA122084B3B8C925 /* OpalImagePickerResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OpalImagePickerResources.bundle; path = "OpalImagePicker-OpalImagePickerResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ADEF1C5DD738A2F7606F306319BF72D /* AXPhotoViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXPhotoViewer.modulemap; sourceTree = "<group>"; };
+		6147754B9D1810E1D0D90B43A3E430ED /* FLAnimatedImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-prefix.pch"; sourceTree = "<group>"; };
+		62235BAE643A2E1C26F74CDA575BC75E /* AXCaptionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXCaptionView.swift; path = Source/Classes/Views/AXCaptionView.swift; sourceTree = "<group>"; };
 		62BF6B001100C461688DBB1D0C83B942 /* Pods-keep-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-keep-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6758701ADC514E27CA7C44F5D0CB4BE5 /* AXZoomingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXZoomingImageView.swift; path = Source/Classes/Views/AXZoomingImageView.swift; sourceTree = "<group>"; };
-		69230165CB2FF16316931DCC1EC1ED76 /* AXPhotoViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXPhotoViewer-umbrella.h"; sourceTree = "<group>"; };
+		66CA55D124183D0FE3E2024716393F6A /* TimeInterval+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+String.swift"; path = "OpalImagePicker/Source/TimeInterval+String.swift"; sourceTree = "<group>"; };
+		67AE4EB5091526EF690F02910A11EA5C /* AXStackableViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXStackableViewContainer.swift; path = Source/Classes/Views/AXStackableViewContainer.swift; sourceTree = "<group>"; };
+		6DEB03C7305E4C2B4F6CEBF3A1026F69 /* FLAnimatedImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImage-dummy.m"; sourceTree = "<group>"; };
 		6FDCE84337BD19EB1DF2ACFE6F744BB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		72A9977EE1C6E17DDC009ABDC015196C /* AXOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXOverlayView.swift; path = Source/Classes/Views/AXOverlayView.swift; sourceTree = "<group>"; };
-		731EA26F15300AFD1FA8B195EDDC5741 /* AXPhotoViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXPhotoViewer.xcconfig; sourceTree = "<group>"; };
-		795EE01BF622E07071B3643B71C000FC /* AXPhotoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotoViewController.swift; path = "Source/Classes/View Controllers/AXPhotoViewController.swift"; sourceTree = "<group>"; };
-		7AAF880C4CCB180BBE0C0391AEF195A4 /* AXLoadingViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXLoadingViewProtocol.swift; path = Source/Protocols/AXLoadingViewProtocol.swift; sourceTree = "<group>"; };
-		7B536BF9A3E4850676E83D3FD124813A /* AXPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhoto.swift; path = Source/Classes/Models/AXPhoto.swift; sourceTree = "<group>"; };
-		7D2DCF13835181C5A0798D674740B46D /* FLAnimatedImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-prefix.pch"; sourceTree = "<group>"; };
-		82BA85CFC5A02A5836C473F88F8B3485 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "Source/Extensions/UIView+Animations.swift"; sourceTree = "<group>"; };
+		7BCCF47E58F81400FD5752AB7C56A981 /* OpalImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpalImagePickerController.swift; path = OpalImagePicker/Source/OpalImagePickerController.swift; sourceTree = "<group>"; };
+		7EBDF07FF6E5A37F3221E11683D84C8F /* OpalImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpalImagePicker.xcconfig; sourceTree = "<group>"; };
+		83A77EA1B8358805A9A7652BDA79B3A8 /* AXPhotosTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosTransitionAnimator.swift; path = "Source/Classes/Transition Controller + Animators/AXPhotosTransitionAnimator.swift"; sourceTree = "<group>"; };
+		87112D326692F944BB9AE706758C8803 /* AXStateButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXStateButton.h; path = Source/AXStateButton.h; sourceTree = "<group>"; };
 		874962201FB9781FBA37FF5C4D41D3F0 /* AXStateButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AXStateButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87642630F3963BEAA3546B8DE405442C /* AXPhotosTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosTransitionController.swift; path = "Source/Classes/Transition Controller + Animators/AXPhotosTransitionController.swift"; sourceTree = "<group>"; };
+		8901E43F23198943AC6056FD6C44BA35 /* AXPhotoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotoViewController.swift; path = "Source/Classes/View Controllers/AXPhotoViewController.swift"; sourceTree = "<group>"; };
 		8B486AD56DBE8BB093D92AA6C3482AA8 /* AXStateButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXStateButton.framework; path = AXStateButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D190F15E81536510A2CE468DA2F429D /* AXPhotoViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXPhotoViewer-prefix.pch"; sourceTree = "<group>"; };
-		8E59E25444AD62A680430F595D3ED2ED /* AXStateButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXStateButton.modulemap; sourceTree = "<group>"; };
-		920CF69BE4A800AA342152A7413C8D5A /* FLAnimatedImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLAnimatedImage.modulemap; sourceTree = "<group>"; };
-		9354B0A8AC64F2BCCE2C2DE379C6DCF7 /* AXBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXBundle.swift; path = Source/AXBundle.swift; sourceTree = "<group>"; };
-		941CAC197B742ECF24820FF13F724AB1 /* AXDispatchUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXDispatchUtils.swift; path = Source/Utilities/AXDispatchUtils.swift; sourceTree = "<group>"; };
+		8DB39B588F9D6FE7F332BF0087D574ED /* OpalImagePickerCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpalImagePickerCollectionViewLayout.swift; path = OpalImagePicker/Source/OpalImagePickerCollectionViewLayout.swift; sourceTree = "<group>"; };
+		9049FC097B1826652903D02639E333C9 /* AXPhotoViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXPhotoViewer-dummy.m"; sourceTree = "<group>"; };
+		910095B79D8083399F073D4F6F5FEF02 /* AXStateButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXStateButton.modulemap; sourceTree = "<group>"; };
 		972286776FA53A2D7042D917BC8B0AD6 /* Pods-keep.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-keep.modulemap"; sourceTree = "<group>"; };
-		9938C469D57876D6094241AB9A3E4B95 /* AXPhotoViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXPhotoViewer-dummy.m"; sourceTree = "<group>"; };
-		9C0B5D8BF80CE6B12A767A484BFDE79F /* FLAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = FLAnimatedImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
-		9CC3AB0E2EAF8A172CF7B90B8D2631A2 /* AXStateButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXStateButton-umbrella.h"; sourceTree = "<group>"; };
+		9C7AFC488E631E302B79B171751F5380 /* AXTransitionInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXTransitionInfo.swift; path = Source/Classes/Models/AXTransitionInfo.swift; sourceTree = "<group>"; };
+		9D18BF15BBD03DEC1ADB3E244D14BAC5 /* AXPhotosDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosDataSource.swift; path = Source/Classes/Models/AXPhotosDataSource.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E8016313721AD5C71BCA6AC69B0EB08 /* Pods-keep-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-keep-umbrella.h"; sourceTree = "<group>"; };
-		A24D7C60BA76EDFC01F9589FF5034005 /* Array+Sorted.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Sorted.swift"; path = "Source/Extensions/Array+Sorted.swift"; sourceTree = "<group>"; };
-		A4A51C850B8D1BF75C16BE8B502A147C /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
-		A6A777F2114D02638237A55DB7BA1FFB /* FLAnimatedImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLAnimatedImage-Info.plist"; sourceTree = "<group>"; };
-		A964A73A4CB7C0CCE4A17E2CF57374AA /* AXConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXConstants.swift; path = Source/AXConstants.swift; sourceTree = "<group>"; };
-		AB575801ED84FA84835239189D4FD2CF /* FLAnimatedImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImage-dummy.m"; sourceTree = "<group>"; };
-		AC6284AA54C1519CC4AF80D21FC2F0E1 /* AXPhotosViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosViewController.swift; path = "Source/Classes/View Controllers/AXPhotosViewController.swift"; sourceTree = "<group>"; };
-		B01FFACB7EECDAE8E429C18331654A0D /* AXStateButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXStateButton-dummy.m"; sourceTree = "<group>"; };
-		B985EC2AE446C03A28B7541210D63234 /* AXPhotosDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosDataSource.swift; path = Source/Classes/Models/AXPhotosDataSource.swift; sourceTree = "<group>"; };
-		BCCF86AE77BC4E04EA12F6E25FDA08AD /* FLAnimatedImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-umbrella.h"; sourceTree = "<group>"; };
-		BD33170FFACA3A7E86712F54384466DD /* AXPhotosDismissalAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosDismissalAnimator.swift; path = "Source/Classes/Transition Controller + Animators/AXPhotosDismissalAnimator.swift"; sourceTree = "<group>"; };
-		BF7E6AE75E9B11670F611BC330B82649 /* AXImageViewTransitionContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXImageViewTransitionContainer.swift; path = Source/Classes/Views/AXImageViewTransitionContainer.swift; sourceTree = "<group>"; };
+		A0D74F95DA2CD4A9E021C67DB2FF599F /* AXStateButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXStateButton.m; path = Source/AXStateButton.m; sourceTree = "<group>"; };
+		A46A2C0A05399142B30E5146F9B8ECBE /* AXPhotoViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXPhotoViewer.xcconfig; sourceTree = "<group>"; };
+		ABA3EBD545161D9FDA47A1E3AB1B0E3E /* AXPreviewingPhotosViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPreviewingPhotosViewController.swift; path = "Source/Classes/View Controllers/AXPreviewingPhotosViewController.swift"; sourceTree = "<group>"; };
+		B01D923ABA74E6173BD2F51B440A8FC2 /* AXPageableViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPageableViewControllerProtocol.swift; path = Source/Protocols/AXPageableViewControllerProtocol.swift; sourceTree = "<group>"; };
+		B074005AD737419992600CFA9305555A /* SimpleNetworkIntegration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleNetworkIntegration.swift; path = Source/Integrations/SimpleNetworkIntegration.swift; sourceTree = "<group>"; };
+		B14006C25C40CE0645AA438FEBA0EFF1 /* AXStateButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXStateButton.xcconfig; sourceTree = "<group>"; };
+		B4F833EA699A0B6E1B8E78AB2DB4BC77 /* UIImageView+AXExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AXExtensions.m"; path = "Source/Extensions/UIImageView+AXExtensions.m"; sourceTree = "<group>"; };
+		B507563DA9639A1BB1413EBFF25A12FC /* FLAnimatedImageView+AXExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FLAnimatedImageView+AXExtensions.m"; path = "Source/Extensions/FLAnimatedImageView+AXExtensions.m"; sourceTree = "<group>"; };
+		BA8E6D8FB2FD476BC2800EBC96612610 /* AXLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXLoadingView.swift; path = Source/Classes/Views/AXLoadingView.swift; sourceTree = "<group>"; };
+		BAD669F7054763364CA3E9F431334816 /* AXPhotosPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosPresentationAnimator.swift; path = "Source/Classes/Transition Controller + Animators/AXPhotosPresentationAnimator.swift"; sourceTree = "<group>"; };
+		BBE66B05723BA8BF0A646BACC3D555C2 /* AXPhotosDismissalAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosDismissalAnimator.swift; path = "Source/Classes/Transition Controller + Animators/AXPhotosDismissalAnimator.swift"; sourceTree = "<group>"; };
+		C05CF5BCFF109574CCF364D1E4A77D1C /* Data+GIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+GIF.swift"; path = "Source/Extensions/Data+GIF.swift"; sourceTree = "<group>"; };
 		C08F822CE25F1B4CA2C9B33D64BDB354 /* Pods-keep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-keep.release.xcconfig"; sourceTree = "<group>"; };
-		C1E188BE3E0DE539314CCAE6ACA2843A /* AXPhotoProtocol+Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AXPhotoProtocol+Internal.swift"; path = "Source/Extensions/AXPhotoProtocol+Internal.swift"; sourceTree = "<group>"; };
-		C73A140FC7A9A5A569623DF500E52E2F /* AXTransitionUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXTransitionUtils.swift; path = Source/Utilities/AXTransitionUtils.swift; sourceTree = "<group>"; };
-		C8265017DA84BCC97DD052313828C88D /* AXCaptionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXCaptionView.swift; path = Source/Classes/Views/AXCaptionView.swift; sourceTree = "<group>"; };
+		C24491BD9E0FDC095047C0A5934B97A0 /* FLAnimatedImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLAnimatedImage.modulemap; sourceTree = "<group>"; };
+		C36741C6B930D0FC23DD014E585718FE /* AXOverlayTitleViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXOverlayTitleViewProtocol.swift; path = Source/Protocols/AXOverlayTitleViewProtocol.swift; sourceTree = "<group>"; };
+		C637013CAC290C9992BF517DFD2AA6E6 /* ResourceBundle-OpalImagePickerResources-OpalImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OpalImagePickerResources-OpalImagePicker-Info.plist"; sourceTree = "<group>"; };
 		C83C25154084F64E25313E1AE542CE4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		CCDEC714B89517E06CF2123CF0285E83 /* AXStackableViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXStackableViewContainer.swift; path = Source/Classes/Views/AXStackableViewContainer.swift; sourceTree = "<group>"; };
-		D009298E8AD788A9133D18E1CDB7A00D /* AXPhotoProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotoProtocol.swift; path = Source/Protocols/AXPhotoProtocol.swift; sourceTree = "<group>"; };
-		D019ED53F3570176F49BC669444B694C /* SimpleNetworkIntegration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleNetworkIntegration.swift; path = Source/Integrations/SimpleNetworkIntegration.swift; sourceTree = "<group>"; };
 		D054B23CA5B70AF35C5AB94822F5D741 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		D1813CB5B86A4ABA6C3C0C1DBEADE842 /* UIImageView+AXExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AXExtensions.m"; path = "Source/Extensions/UIImageView+AXExtensions.m"; sourceTree = "<group>"; };
-		D3CADC6A98950ED81A1C7207F000D652 /* AXPhotoViewer.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AXPhotoViewer.xcassets; path = Assets/AXPhotoViewer.xcassets; sourceTree = "<group>"; };
-		D8B1940755A772FB52EE8485DB05091B /* AXPhotosTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosTransitionAnimator.swift; path = "Source/Classes/Transition Controller + Animators/AXPhotosTransitionAnimator.swift"; sourceTree = "<group>"; };
-		DCA4BD065DD8252FFFBEA4174E5CDAE2 /* AXButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXButton.swift; path = Source/Classes/Controls/AXButton.swift; sourceTree = "<group>"; };
-		E627C18DCA45B5E05CBFE424B40FEA08 /* FLAnimatedImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLAnimatedImage.xcconfig; sourceTree = "<group>"; };
-		E67A7A0DE999D75F69ABCFFF9DC445A5 /* FLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
-		E6F1FE9B71484C0C707CDA674565271D /* AXOverlayTitleViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXOverlayTitleViewProtocol.swift; path = Source/Protocols/AXOverlayTitleViewProtocol.swift; sourceTree = "<group>"; };
-		EDA51A50104282F2FCE037F112ACD7AE /* Data+GIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+GIF.swift"; path = "Source/Extensions/Data+GIF.swift"; sourceTree = "<group>"; };
-		F053E69D7057F9F866046BCE615C034E /* AXLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXLoadingView.swift; path = Source/Classes/Views/AXLoadingView.swift; sourceTree = "<group>"; };
-		F9E1574ACB724325DDAC37BDDE471B8C /* FLAnimatedImageView+AXExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FLAnimatedImageView+AXExtensions.h"; path = "Source/Extensions/FLAnimatedImageView+AXExtensions.h"; sourceTree = "<group>"; };
+		D179AA127517E8D3980CDAFEF402B517 /* FLAnimatedImageView+AXExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FLAnimatedImageView+AXExtensions.h"; path = "Source/Extensions/FLAnimatedImageView+AXExtensions.h"; sourceTree = "<group>"; };
+		D6F17D533257A48A2BB7C5C897FAA416 /* AXPagingConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPagingConfig.swift; path = Source/Classes/Models/AXPagingConfig.swift; sourceTree = "<group>"; };
+		DA2F964A76B6EE4A4D0D6C71B54A984A /* OpalImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpalImagePicker.modulemap; sourceTree = "<group>"; };
+		DAC68E5571F3C7E0C47C6C6B2787F920 /* AXLoadingViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXLoadingViewProtocol.swift; path = Source/Protocols/AXLoadingViewProtocol.swift; sourceTree = "<group>"; };
+		DE184CD5EEF6BBC98C0252A0992705B7 /* AXTransitionUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXTransitionUtils.swift; path = Source/Utilities/AXTransitionUtils.swift; sourceTree = "<group>"; };
+		E6D91BAF7C1FA632180445ACE50B625A /* FLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
+		E765A545DC083484DBC1F25859965C1E /* OpalImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpalImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		EC6CCBD1A83A3A414536AC3DC76E20C5 /* Array+Sorted.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Sorted.swift"; path = "Source/Extensions/Array+Sorted.swift"; sourceTree = "<group>"; };
+		ED5D1476C64AB710E4B5F2B8DA3D3401 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = FLAnimatedImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
+		EE30EE147E59A076E23B589D6D1805A4 /* AXPhotoProtocol+Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AXPhotoProtocol+Internal.swift"; path = "Source/Extensions/AXPhotoProtocol+Internal.swift"; sourceTree = "<group>"; };
+		EFA1FB120C3437B0E9B5E034229C7637 /* FLAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = FLAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
+		F144C1E9B403B96843FE782D8D7E0751 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
+		F4654A0C7FE4FA6732394D9A7B5BDD65 /* AXOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXOverlayView.swift; path = Source/Classes/Views/AXOverlayView.swift; sourceTree = "<group>"; };
+		FA9B3E3F8C3D4A56ACCD4950B35E1169 /* AXStateButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXStateButton-prefix.pch"; sourceTree = "<group>"; };
 		FAA5F2D71B90788C908800A94534AA92 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLAnimatedImage.framework; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5CCD935DA7A5DD9CEA57A87D0D854F /* AXPhotoViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXPhotoViewer-prefix.pch"; sourceTree = "<group>"; };
+		FF7AC01359A9AC3FBF2429FBDF6466A2 /* UIImageView+AXExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AXExtensions.h"; path = "Source/Extensions/UIImageView+AXExtensions.h"; sourceTree = "<group>"; };
+		FFABAEB58E00DC11080AEB130D7C304D /* AXImageViewTransitionContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXImageViewTransitionContainer.swift; path = Source/Classes/Views/AXImageViewTransitionContainer.swift; sourceTree = "<group>"; };
+		FFB0F2E7AB295F5A7589FBC7F6D21A31 /* OpalImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpalImagePicker-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15C6F6B6495D009FD3462EA49535B7C2 /* Frameworks */ = {
+		48C6F1FD76950D421F4F6C70B9AEB1AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB356DFCEEF143D09605B52829EB37FB /* Foundation.framework in Frameworks */,
+				2EB0702086D648A9E0BD16701E464B86 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +285,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D98401DBF1341655FB1E757CF430E2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25ED964E3082F6924C545978B432B8CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9C7348B46B71F64A72D6691678899E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FFC3B37840F62AC98C5D5D54C0C2997A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,6 +312,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C1DA60C301F9E944B63CECF2F3703E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				910095B79D8083399F073D4F6F5FEF02 /* AXStateButton.modulemap */,
+				B14006C25C40CE0645AA438FEBA0EFF1 /* AXStateButton.xcconfig */,
+				0DB80EB3BF35809FEFF8273B3EBA004C /* AXStateButton-dummy.m */,
+				57A58544EB2C39F12A04B226C99DFE3A /* AXStateButton-Info.plist */,
+				FA9B3E3F8C3D4A56ACCD4950B35E1169 /* AXStateButton-prefix.pch */,
+				4DEA5A8C0981226E6BA39D7BBF073D74 /* AXStateButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AXStateButton";
+			sourceTree = "<group>";
+		};
 		1F705002667D8AF456183F3E43998D63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +334,20 @@
 				244B3ED21E8D0052DE9CC3E576C6800E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2354AF945B3CB0892833A6316F2D8454 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C24491BD9E0FDC095047C0A5934B97A0 /* FLAnimatedImage.modulemap */,
+				5418A80AA2691A3465BDAC1B06A4E88C /* FLAnimatedImage.xcconfig */,
+				6DEB03C7305E4C2B4F6CEBF3A1026F69 /* FLAnimatedImage-dummy.m */,
+				186BAE98AECD749E588687755E85D028 /* FLAnimatedImage-Info.plist */,
+				6147754B9D1810E1D0D90B43A3E430ED /* FLAnimatedImage-prefix.pch */,
+				2FFF7CFB92D24A8E69E8FD415EEC17A8 /* FLAnimatedImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FLAnimatedImage";
 			sourceTree = "<group>";
 		};
 		244B3ED21E8D0052DE9CC3E576C6800E /* iOS */ = {
@@ -273,110 +363,113 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		30877DF97276C9B4E4824D631902C111 /* Support Files */ = {
+		2D309519A93199500314EC3FA039CE64 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				42F314999CC5BF86D88D481DC97FBD2A /* AXPhotoViewer.modulemap */,
-				731EA26F15300AFD1FA8B195EDDC5741 /* AXPhotoViewer.xcconfig */,
-				9938C469D57876D6094241AB9A3E4B95 /* AXPhotoViewer-dummy.m */,
-				5DEA53B063F892885FFAB44F27E788CF /* AXPhotoViewer-Info.plist */,
-				8D190F15E81536510A2CE468DA2F429D /* AXPhotoViewer-prefix.pch */,
-				69230165CB2FF16316931DCC1EC1ED76 /* AXPhotoViewer-umbrella.h */,
+				5ADEF1C5DD738A2F7606F306319BF72D /* AXPhotoViewer.modulemap */,
+				A46A2C0A05399142B30E5146F9B8ECBE /* AXPhotoViewer.xcconfig */,
+				9049FC097B1826652903D02639E333C9 /* AXPhotoViewer-dummy.m */,
+				2F57364D94B17BF5EC282F0735A204B1 /* AXPhotoViewer-Info.plist */,
+				FB5CCD935DA7A5DD9CEA57A87D0D854F /* AXPhotoViewer-prefix.pch */,
+				5920E2EB6F0A20228A70FEC2AE6A09C6 /* AXPhotoViewer-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AXPhotoViewer";
 			sourceTree = "<group>";
 		};
-		3CE530D2B0511D25F8A3316AAF7A1D1F /* Core */ = {
+		35B689067DD3D80AFC8579F0C973E932 /* OpalImagePicker */ = {
 			isa = PBXGroup;
 			children = (
-				A24D7C60BA76EDFC01F9589FF5034005 /* Array+Sorted.swift */,
-				9354B0A8AC64F2BCCE2C2DE379C6DCF7 /* AXBundle.swift */,
-				DCA4BD065DD8252FFFBEA4174E5CDAE2 /* AXButton.swift */,
-				C8265017DA84BCC97DD052313828C88D /* AXCaptionView.swift */,
-				105046D072B504396CB3735A3A523A79 /* AXCaptionViewProtocol.swift */,
-				A964A73A4CB7C0CCE4A17E2CF57374AA /* AXConstants.swift */,
-				941CAC197B742ECF24820FF13F724AB1 /* AXDispatchUtils.swift */,
-				BF7E6AE75E9B11670F611BC330B82649 /* AXImageViewTransitionContainer.swift */,
-				F053E69D7057F9F866046BCE615C034E /* AXLoadingView.swift */,
-				7AAF880C4CCB180BBE0C0391AEF195A4 /* AXLoadingViewProtocol.swift */,
-				3749F446B6728526EF6F38C825DE975D /* AXNetworkIntegrationProtocol.swift */,
-				E6F1FE9B71484C0C707CDA674565271D /* AXOverlayTitleViewProtocol.swift */,
-				72A9977EE1C6E17DDC009ABDC015196C /* AXOverlayView.swift */,
-				249320706E771DC428CFDC85C5F9BA2A /* AXPageableViewControllerProtocol.swift */,
-				1138E1BA01047AACA8B1AA1E2C793E69 /* AXPagingConfig.swift */,
-				7B536BF9A3E4850676E83D3FD124813A /* AXPhoto.swift */,
-				D009298E8AD788A9133D18E1CDB7A00D /* AXPhotoProtocol.swift */,
-				C1E188BE3E0DE539314CCAE6ACA2843A /* AXPhotoProtocol+Internal.swift */,
-				B985EC2AE446C03A28B7541210D63234 /* AXPhotosDataSource.swift */,
-				BD33170FFACA3A7E86712F54384466DD /* AXPhotosDismissalAnimator.swift */,
-				27FFF5060BDEE73038BBC62D338FE8B7 /* AXPhotosPresentationAnimator.swift */,
-				D8B1940755A772FB52EE8485DB05091B /* AXPhotosTransitionAnimator.swift */,
-				1AB712492C9380ABF5D5383CEE96BE38 /* AXPhotosTransitionController.swift */,
-				AC6284AA54C1519CC4AF80D21FC2F0E1 /* AXPhotosViewController.swift */,
-				795EE01BF622E07071B3643B71C000FC /* AXPhotoViewController.swift */,
-				339D4919C2B49B51636F1F138AED74E4 /* AXPreviewingPhotosViewController.swift */,
-				CCDEC714B89517E06CF2123CF0285E83 /* AXStackableViewContainer.swift */,
-				5CE7242BA5B29A0814482242A8A300AA /* AXTransitionInfo.swift */,
-				C73A140FC7A9A5A569623DF500E52E2F /* AXTransitionUtils.swift */,
-				6758701ADC514E27CA7C44F5D0CB4BE5 /* AXZoomingImageView.swift */,
-				EDA51A50104282F2FCE037F112ACD7AE /* Data+GIF.swift */,
-				F9E1574ACB724325DDAC37BDDE471B8C /* FLAnimatedImageView+AXExtensions.h */,
-				4C26ED21FD878F93BC9EE70365068846 /* FLAnimatedImageView+AXExtensions.m */,
-				D019ED53F3570176F49BC669444B694C /* SimpleNetworkIntegration.swift */,
-				269424A39CAF12BCAF26EE50BA8905F6 /* UIImageView+AXExtensions.h */,
-				D1813CB5B86A4ABA6C3C0C1DBEADE842 /* UIImageView+AXExtensions.m */,
-				129FBED61259D83C16E0C3B9282395E7 /* UIInterfaceOrientation+Transform.swift */,
-				82BA85CFC5A02A5836C473F88F8B3485 /* UIView+Animations.swift */,
-				6C61C8A795D18A09F04DD8A38E610798 /* Resources */,
+				077B329E5C4326FDEA1AB9AE30802FA1 /* Bundle+Helper.swift */,
+				0569334398791D51D79A2EC155D976FE /* ImagePickerCollectionViewCell.swift */,
+				8DB39B588F9D6FE7F332BF0087D574ED /* OpalImagePickerCollectionViewLayout.swift */,
+				05034776D7FBBD971FFA38B8ED1AD45E /* OpalImagePickerConfiguration.swift */,
+				7BCCF47E58F81400FD5752AB7C56A981 /* OpalImagePickerController.swift */,
+				0D3DF5FEE8BB82433DEE1EB3CC39826B /* OpalImagePickerRootViewController.swift */,
+				66CA55D124183D0FE3E2024716393F6A /* TimeInterval+String.swift */,
+				267F3B8BC26B39DFB5AFE78BF4A5B6CD /* UIView+Helper.swift */,
+				3399F720789080349D8EC6388A885BC7 /* UIViewController+OpalImagePicker.swift */,
+				5B5A79017FB1DCC6937812B73CC51488 /* Resources */,
+				87BE20411E5FA9679D8AE00F6209D512 /* Support Files */,
 			);
-			name = Core;
+			name = OpalImagePicker;
+			path = OpalImagePicker;
 			sourceTree = "<group>";
 		};
-		5A02289D5600D6CDF1201127F571D8CD /* Products */ = {
+		38C4C0875459AE77AA1EB64A93FF8505 /* AXPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				A77CE799FCD620BA059FF053E35A170D /* Core */,
+				2D309519A93199500314EC3FA039CE64 /* Support Files */,
+			);
+			name = AXPhotoViewer;
+			path = AXPhotoViewer;
+			sourceTree = "<group>";
+		};
+		58FC45DC8ED4006DBDC07D7362D0001B /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				48F33B8E9F258A1278C9CC14A691D668 /* AXPhotoViewer.framework */,
 				8B486AD56DBE8BB093D92AA6C3482AA8 /* AXStateButton.framework */,
 				FAA5F2D71B90788C908800A94534AA92 /* FLAnimatedImage.framework */,
+				484151C077E2CEBBCACC4EBBF7727D98 /* OpalImagePicker.framework */,
+				598756CCCB40FC98DA122084B3B8C925 /* OpalImagePickerResources.bundle */,
 				0D826DE9DDF1A9D3F71F003CBEA5644E /* Pods_keep.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E41EB52FBF0E5AE5841F09476C0444C /* Support Files */ = {
+		5B5A79017FB1DCC6937812B73CC51488 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8E59E25444AD62A680430F595D3ED2ED /* AXStateButton.modulemap */,
-				279F2EAAE13E022F41DE239FE79FDB44 /* AXStateButton.xcconfig */,
-				B01FFACB7EECDAE8E429C18331654A0D /* AXStateButton-dummy.m */,
-				1F1AB320F16EC7642A78899D20D3D530 /* AXStateButton-Info.plist */,
-				4662DF07BF031D35E414B295702C9E46 /* AXStateButton-prefix.pch */,
-				9CC3AB0E2EAF8A172CF7B90B8D2631A2 /* AXStateButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AXStateButton";
-			sourceTree = "<group>";
-		};
-		610DFEC7E58E4F5AB8904DC13993A473 /* FLAnimatedImage */ = {
-			isa = PBXGroup;
-			children = (
-				E67A7A0DE999D75F69ABCFFF9DC445A5 /* FLAnimatedImage.h */,
-				0C1094C9129098D1BA7BABCA73C9653C /* FLAnimatedImage.m */,
-				A4A51C850B8D1BF75C16BE8B502A147C /* FLAnimatedImageView.h */,
-				9C0B5D8BF80CE6B12A767A484BFDE79F /* FLAnimatedImageView.m */,
-				D24A1970028C6A1D7BDADD197CDD1508 /* Support Files */,
-			);
-			name = FLAnimatedImage;
-			path = FLAnimatedImage;
-			sourceTree = "<group>";
-		};
-		6C61C8A795D18A09F04DD8A38E610798 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D3CADC6A98950ED81A1C7207F000D652 /* AXPhotoViewer.xcassets */,
+				1B2C8FA1C46CA6A2B05CDE73C457D7E2 /* Assets.xcassets */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		6EC3BAE451C4C425A3B894C94C50781D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18D67E4CAFA8D621B33C4C3296A896FE /* AXPhotoViewer.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7B468D86F0598E4E407235735857631F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38C4C0875459AE77AA1EB64A93FF8505 /* AXPhotoViewer */,
+				96D71B4E1CCD1FFFA71F2F63C406ADBB /* AXStateButton */,
+				F88992AF8E991C718EA7003048113D3B /* FLAnimatedImage */,
+				35B689067DD3D80AFC8579F0C973E932 /* OpalImagePicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87BE20411E5FA9679D8AE00F6209D512 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA2F964A76B6EE4A4D0D6C71B54A984A /* OpalImagePicker.modulemap */,
+				7EBDF07FF6E5A37F3221E11683D84C8F /* OpalImagePicker.xcconfig */,
+				FFB0F2E7AB295F5A7589FBC7F6D21A31 /* OpalImagePicker-dummy.m */,
+				039F8F119156FF0D0F73AA92517B826A /* OpalImagePicker-Info.plist */,
+				E765A545DC083484DBC1F25859965C1E /* OpalImagePicker-prefix.pch */,
+				4CBCEC5EEBE5D01B032F560A309C0AF1 /* OpalImagePicker-umbrella.h */,
+				C637013CAC290C9992BF517DFD2AA6E6 /* ResourceBundle-OpalImagePickerResources-OpalImagePicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpalImagePicker";
+			sourceTree = "<group>";
+		};
+		96D71B4E1CCD1FFFA71F2F63C406ADBB /* AXStateButton */ = {
+			isa = PBXGroup;
+			children = (
+				87112D326692F944BB9AE706758C8803 /* AXStateButton.h */,
+				A0D74F95DA2CD4A9E021C67DB2FF599F /* AXStateButton.m */,
+				1C1DA60C301F9E944B63CECF2F3703E6 /* Support Files */,
+			);
+			name = AXStateButton;
+			path = AXStateButton;
 			sourceTree = "<group>";
 		};
 		97348AB930598F41F8FB7CEA6C7C8E0C /* Pods-keep */ = {
@@ -396,6 +489,52 @@
 			path = "Target Support Files/Pods-keep";
 			sourceTree = "<group>";
 		};
+		A77CE799FCD620BA059FF053E35A170D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EC6CCBD1A83A3A414536AC3DC76E20C5 /* Array+Sorted.swift */,
+				107C49813C7EC4920B26D5DCB0118006 /* AXBundle.swift */,
+				35589202CD98C642F53984611E53EC65 /* AXButton.swift */,
+				62235BAE643A2E1C26F74CDA575BC75E /* AXCaptionView.swift */,
+				3770F05EC9C3B40E15CE28C2BADC7EEF /* AXCaptionViewProtocol.swift */,
+				2BE4B7A1B380EE776CF16159CDBE5BE4 /* AXConstants.swift */,
+				458E5787E2E9F20B65AC39FA1382A81F /* AXDispatchUtils.swift */,
+				FFABAEB58E00DC11080AEB130D7C304D /* AXImageViewTransitionContainer.swift */,
+				BA8E6D8FB2FD476BC2800EBC96612610 /* AXLoadingView.swift */,
+				DAC68E5571F3C7E0C47C6C6B2787F920 /* AXLoadingViewProtocol.swift */,
+				05804D2CBF4012EFAA45AFF99CCD1CD2 /* AXNetworkIntegrationProtocol.swift */,
+				C36741C6B930D0FC23DD014E585718FE /* AXOverlayTitleViewProtocol.swift */,
+				F4654A0C7FE4FA6732394D9A7B5BDD65 /* AXOverlayView.swift */,
+				B01D923ABA74E6173BD2F51B440A8FC2 /* AXPageableViewControllerProtocol.swift */,
+				D6F17D533257A48A2BB7C5C897FAA416 /* AXPagingConfig.swift */,
+				2C8E73D469E2C473DCF179C2D2143BCE /* AXPhoto.swift */,
+				33A3EB53CA6F1BA724DBE675919AF493 /* AXPhotoProtocol.swift */,
+				EE30EE147E59A076E23B589D6D1805A4 /* AXPhotoProtocol+Internal.swift */,
+				9D18BF15BBD03DEC1ADB3E244D14BAC5 /* AXPhotosDataSource.swift */,
+				BBE66B05723BA8BF0A646BACC3D555C2 /* AXPhotosDismissalAnimator.swift */,
+				BAD669F7054763364CA3E9F431334816 /* AXPhotosPresentationAnimator.swift */,
+				83A77EA1B8358805A9A7652BDA79B3A8 /* AXPhotosTransitionAnimator.swift */,
+				87642630F3963BEAA3546B8DE405442C /* AXPhotosTransitionController.swift */,
+				29F9BF9FF214CB265725AD776D49436B /* AXPhotosViewController.swift */,
+				8901E43F23198943AC6056FD6C44BA35 /* AXPhotoViewController.swift */,
+				ABA3EBD545161D9FDA47A1E3AB1B0E3E /* AXPreviewingPhotosViewController.swift */,
+				67AE4EB5091526EF690F02910A11EA5C /* AXStackableViewContainer.swift */,
+				9C7AFC488E631E302B79B171751F5380 /* AXTransitionInfo.swift */,
+				DE184CD5EEF6BBC98C0252A0992705B7 /* AXTransitionUtils.swift */,
+				3B49B4BB0C660B26BD417AC187710FEE /* AXZoomingImageView.swift */,
+				C05CF5BCFF109574CCF364D1E4A77D1C /* Data+GIF.swift */,
+				D179AA127517E8D3980CDAFEF402B517 /* FLAnimatedImageView+AXExtensions.h */,
+				B507563DA9639A1BB1413EBFF25A12FC /* FLAnimatedImageView+AXExtensions.m */,
+				B074005AD737419992600CFA9305555A /* SimpleNetworkIntegration.swift */,
+				FF7AC01359A9AC3FBF2429FBDF6466A2 /* UIImageView+AXExtensions.h */,
+				B4F833EA699A0B6E1B8E78AB2DB4BC77 /* UIImageView+AXExtensions.m */,
+				060B8A9680E4EACA3D4A238A964AADB3 /* UIInterfaceOrientation+Transform.swift */,
+				0F807F5740DB73FE50209D0FA74F2578 /* UIView+Animations.swift */,
+				6EC3BAE451C4C425A3B894C94C50781D /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		AC3E4F5524783184C5FCDFF6802D84D2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -409,60 +548,36 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1F705002667D8AF456183F3E43998D63 /* Frameworks */,
-				D257F51AB35D7C6CE4AF3EB2BEB6F9C0 /* Pods */,
-				5A02289D5600D6CDF1201127F571D8CD /* Products */,
+				7B468D86F0598E4E407235735857631F /* Pods */,
+				58FC45DC8ED4006DBDC07D7362D0001B /* Products */,
 				AC3E4F5524783184C5FCDFF6802D84D2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D24A1970028C6A1D7BDADD197CDD1508 /* Support Files */ = {
+		F88992AF8E991C718EA7003048113D3B /* FLAnimatedImage */ = {
 			isa = PBXGroup;
 			children = (
-				920CF69BE4A800AA342152A7413C8D5A /* FLAnimatedImage.modulemap */,
-				E627C18DCA45B5E05CBFE424B40FEA08 /* FLAnimatedImage.xcconfig */,
-				AB575801ED84FA84835239189D4FD2CF /* FLAnimatedImage-dummy.m */,
-				A6A777F2114D02638237A55DB7BA1FFB /* FLAnimatedImage-Info.plist */,
-				7D2DCF13835181C5A0798D674740B46D /* FLAnimatedImage-prefix.pch */,
-				BCCF86AE77BC4E04EA12F6E25FDA08AD /* FLAnimatedImage-umbrella.h */,
+				E6D91BAF7C1FA632180445ACE50B625A /* FLAnimatedImage.h */,
+				EFA1FB120C3437B0E9B5E034229C7637 /* FLAnimatedImage.m */,
+				F144C1E9B403B96843FE782D8D7E0751 /* FLAnimatedImageView.h */,
+				ED5D1476C64AB710E4B5F2B8DA3D3401 /* FLAnimatedImageView.m */,
+				2354AF945B3CB0892833A6316F2D8454 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FLAnimatedImage";
-			sourceTree = "<group>";
-		};
-		D257F51AB35D7C6CE4AF3EB2BEB6F9C0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F4BEBC63C21C17295BE401593702E46D /* AXPhotoViewer */,
-				EE8FC315CE9EA50C81D03787C20AFB23 /* AXStateButton */,
-				610DFEC7E58E4F5AB8904DC13993A473 /* FLAnimatedImage */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		EE8FC315CE9EA50C81D03787C20AFB23 /* AXStateButton */ = {
-			isa = PBXGroup;
-			children = (
-				11D97DEE5D1CA2D00960A9AAAAF15BFB /* AXStateButton.h */,
-				3AC1C819C97E272F1FCC3C57293013CA /* AXStateButton.m */,
-				5E41EB52FBF0E5AE5841F09476C0444C /* Support Files */,
-			);
-			name = AXStateButton;
-			path = AXStateButton;
-			sourceTree = "<group>";
-		};
-		F4BEBC63C21C17295BE401593702E46D /* AXPhotoViewer */ = {
-			isa = PBXGroup;
-			children = (
-				3CE530D2B0511D25F8A3316AAF7A1D1F /* Core */,
-				30877DF97276C9B4E4824D631902C111 /* Support Files */,
-			);
-			name = AXPhotoViewer;
-			path = AXPhotoViewer;
+			name = FLAnimatedImage;
+			path = FLAnimatedImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0EF512E13D82430392EAACA6D41A6A7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966D8B2C8210886CF2043473BB3AEC8B /* OpalImagePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31E00000BB6F7DE8BB817410D75C1E6C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -482,11 +597,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		590C73B748955867D19AF17E00105054 /* Headers */ = {
+		D889B1A7B5B0EAD89670D35DB6EC3887 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3694EB27A169F661C9CD70B9F6341B74 /* Pods-keep-umbrella.h in Headers */,
+				3194E99298E19EA0A939BAE3612EC8A9 /* Pods-keep-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,24 +620,61 @@
 /* Begin PBXNativeTarget section */
 		101E5113F67AD089E63E1522BFA1783B /* Pods-keep */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD059C58FE10312E5BB25309AB52DD5F /* Build configuration list for PBXNativeTarget "Pods-keep" */;
+			buildConfigurationList = AA7D1587BE544A91AF85A39047185B42 /* Build configuration list for PBXNativeTarget "Pods-keep" */;
 			buildPhases = (
-				590C73B748955867D19AF17E00105054 /* Headers */,
-				3D7A85DB4553962AF6F948670CD99426 /* Sources */,
-				15C6F6B6495D009FD3462EA49535B7C2 /* Frameworks */,
-				F7F0CCEAC805B23C93EE73329FE982EE /* Resources */,
+				D889B1A7B5B0EAD89670D35DB6EC3887 /* Headers */,
+				5E846F6C4D96C04B2CE02B91C0799767 /* Sources */,
+				48C6F1FD76950D421F4F6C70B9AEB1AD /* Frameworks */,
+				B26090838F6776E16552AF465D24F71B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5A1B2AE8D5CEEF26837C3117689EDC3E /* PBXTargetDependency */,
-				EE8B8D2EBAD1882DCAF9517DEEDFB752 /* PBXTargetDependency */,
-				2D03C840B92B6BAC57957A81D1F8CC3C /* PBXTargetDependency */,
+				5D59A7FBE4C9D01D1F1AA3EA95EB426E /* PBXTargetDependency */,
+				888C4228DB2D76E3A3D952CE91548044 /* PBXTargetDependency */,
+				5667830E173401DF8CE2D76B32DBB98C /* PBXTargetDependency */,
+				E162B706596BEC3CB5F4DF649CC4F46E /* PBXTargetDependency */,
 			);
 			name = "Pods-keep";
 			productName = "Pods-keep";
 			productReference = 0D826DE9DDF1A9D3F71F003CBEA5644E /* Pods_keep.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		20485D6CEA89F18A813D04A2DFF7D56F /* OpalImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2AF665B9DDD519E362A7B3687FF637 /* Build configuration list for PBXNativeTarget "OpalImagePicker" */;
+			buildPhases = (
+				0EF512E13D82430392EAACA6D41A6A7E /* Headers */,
+				3EAE3041C5018372E6532956E10B9D06 /* Sources */,
+				D98401DBF1341655FB1E757CF430E2F3 /* Frameworks */,
+				BFE70F98D1F8AD3A5252CE1D5DDA597C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				956714ACC02A822DE30109FE041604BA /* PBXTargetDependency */,
+			);
+			name = OpalImagePicker;
+			productName = OpalImagePicker;
+			productReference = 484151C077E2CEBBCACC4EBBF7727D98 /* OpalImagePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		265D78AF28F751DE873B43A5E2BFD8C2 /* OpalImagePicker-OpalImagePickerResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C93D28A53732A0D6C1FED3DDEF8781 /* Build configuration list for PBXNativeTarget "OpalImagePicker-OpalImagePickerResources" */;
+			buildPhases = (
+				A3B9628F3D4A7292D602FE0A6E2C7E63 /* Sources */,
+				FD9C7348B46B71F64A72D6691678899E /* Frameworks */,
+				535A95751C6451618EDDD743E6E604D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpalImagePicker-OpalImagePickerResources";
+			productName = "OpalImagePicker-OpalImagePickerResources";
+			productReference = 598756CCCB40FC98DA122084B3B8C925 /* OpalImagePickerResources.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		31CAD8EB79EF8AD8BFBFAC94A240A428 /* AXStateButton */ = {
 			isa = PBXNativeTarget;
@@ -598,13 +750,15 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5A02289D5600D6CDF1201127F571D8CD /* Products */;
+			productRefGroup = 58FC45DC8ED4006DBDC07D7362D0001B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				7F0D6E41B1CAB31732AB13EEBC0F0E94 /* AXPhotoViewer */,
 				31CAD8EB79EF8AD8BFBFAC94A240A428 /* AXStateButton */,
 				4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */,
+				20485D6CEA89F18A813D04A2DFF7D56F /* OpalImagePicker */,
+				265D78AF28F751DE873B43A5E2BFD8C2 /* OpalImagePicker-OpalImagePickerResources */,
 				101E5113F67AD089E63E1522BFA1783B /* Pods-keep */,
 			);
 		};
@@ -618,6 +772,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		535A95751C6451618EDDD743E6E604D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA52A972C4753A01EE1DD8340153461 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		622DC811F939410D2677846263385846 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -626,14 +788,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB2F9260F75B64EF48C7712747D7CA92 /* Resources */ = {
+		B26090838F6776E16552AF465D24F71B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7F0CCEAC805B23C93EE73329FE982EE /* Resources */ = {
+		BFE70F98D1F8AD3A5252CE1D5DDA597C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA7B79781C87AC4564E329864C86E03 /* OpalImagePickerResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2F9260F75B64EF48C7712747D7CA92 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -653,11 +823,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D7A85DB4553962AF6F948670CD99426 /* Sources */ = {
+		3EAE3041C5018372E6532956E10B9D06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A57B66F437965DF2F14A9E12A8F7321 /* Pods-keep-dummy.m in Sources */,
+				A46A63DCB2EF79342628BA73796A5EFE /* Bundle+Helper.swift in Sources */,
+				543246B696A61633105865EB02B56FB7 /* ImagePickerCollectionViewCell.swift in Sources */,
+				9AB672ADF465D86F3819B37B0232D759 /* OpalImagePicker-dummy.m in Sources */,
+				F280818D406E8A8EA72FA68118D4096E /* OpalImagePickerCollectionViewLayout.swift in Sources */,
+				193F7C4DC7197AE12B020924E831E109 /* OpalImagePickerConfiguration.swift in Sources */,
+				5E16ACD493C8F71891EA61627F8BFDBA /* OpalImagePickerController.swift in Sources */,
+				6B74FA1EF67CECDD127A7C5C946E7A45 /* OpalImagePickerRootViewController.swift in Sources */,
+				2DA07EAEA57FD87F194BCBA7EF645FBD /* TimeInterval+String.swift in Sources */,
+				182702F92A724A5127240EC801E4413C /* UIView+Helper.swift in Sources */,
+				F426C75560D8E8990E643FD9DE4743FA /* UIViewController+OpalImagePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E846F6C4D96C04B2CE02B91C0799767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C6B8D3D655BF7FB6BBFBEADBB5E286 /* Pods-keep-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,6 +892,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A3B9628F3D4A7292D602FE0A6E2C7E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFAB8A7E5343B84E740A5BF9C0EB5986 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -717,11 +911,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2D03C840B92B6BAC57957A81D1F8CC3C /* PBXTargetDependency */ = {
+		5667830E173401DF8CE2D76B32DBB98C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FLAnimatedImage;
 			target = 4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */;
-			targetProxy = 15E71C0209C3CAA5C45354379E0883CB /* PBXContainerItemProxy */;
+			targetProxy = E5A47248D6F0EB02A248A2F18313E71C /* PBXContainerItemProxy */;
 		};
 		566D04DB35BFC0681A14FCAAF6F69E2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -729,11 +923,17 @@
 			target = 4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */;
 			targetProxy = 1A95A0864D7625D0A4704B8957F75D4D /* PBXContainerItemProxy */;
 		};
-		5A1B2AE8D5CEEF26837C3117689EDC3E /* PBXTargetDependency */ = {
+		5D59A7FBE4C9D01D1F1AA3EA95EB426E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AXPhotoViewer;
 			target = 7F0D6E41B1CAB31732AB13EEBC0F0E94 /* AXPhotoViewer */;
-			targetProxy = A239BF7062C84A393056C442FF1EA4D8 /* PBXContainerItemProxy */;
+			targetProxy = F2E151F09F8E6A5E43600B1512ED6B98 /* PBXContainerItemProxy */;
+		};
+		888C4228DB2D76E3A3D952CE91548044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AXStateButton;
+			target = 31CAD8EB79EF8AD8BFBFAC94A240A428 /* AXStateButton */;
+			targetProxy = C879758B2B0443138375D4A7D61F40AF /* PBXContainerItemProxy */;
 		};
 		89CF7D8AFEE60407F0A1737332405E85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -741,18 +941,24 @@
 			target = 31CAD8EB79EF8AD8BFBFAC94A240A428 /* AXStateButton */;
 			targetProxy = 788742BB347584F8A3FC32D76FCA9926 /* PBXContainerItemProxy */;
 		};
-		EE8B8D2EBAD1882DCAF9517DEEDFB752 /* PBXTargetDependency */ = {
+		956714ACC02A822DE30109FE041604BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AXStateButton;
-			target = 31CAD8EB79EF8AD8BFBFAC94A240A428 /* AXStateButton */;
-			targetProxy = 746F2EACB9D7D170D73DAF015F30AADE /* PBXContainerItemProxy */;
+			name = "OpalImagePicker-OpalImagePickerResources";
+			target = 265D78AF28F751DE873B43A5E2BFD8C2 /* OpalImagePicker-OpalImagePickerResources */;
+			targetProxy = 24080B14595519E138A83344A28C6FCB /* PBXContainerItemProxy */;
+		};
+		E162B706596BEC3CB5F4DF649CC4F46E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpalImagePicker;
+			target = 20485D6CEA89F18A813D04A2DFF7D56F /* OpalImagePicker */;
+			targetProxy = 0A7B63CAA82DC181F603BB60399EAA36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		09F4C2B1E45B7A01FD13AD3859340DA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 279F2EAAE13E022F41DE239FE79FDB44 /* AXStateButton.xcconfig */;
+			baseConfigurationReference = B14006C25C40CE0645AA438FEBA0EFF1 /* AXStateButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -849,7 +1055,254 @@
 			};
 			name = Debug;
 		};
-		17D90F13ECDA2A38EF9FD5995233CA79 /* Release */ = {
+		28A17C9F7D26D9BED5DB86295F6ABE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5418A80AA2691A3465BDAC1B06A4E88C /* FLAnimatedImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
+				PRODUCT_MODULE_NAME = FLAnimatedImage;
+				PRODUCT_NAME = FLAnimatedImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		594588AEEE6AEF9104AD8EBA16A418FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B14006C25C40CE0645AA438FEBA0EFF1 /* AXStateButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AXStateButton/AXStateButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AXStateButton/AXStateButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AXStateButton/AXStateButton.modulemap";
+				PRODUCT_MODULE_NAME = AXStateButton;
+				PRODUCT_NAME = AXStateButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5EBDEDA861FBB114DB6ED7F10310B2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBDF07FF6E5A37F3221E11683D84C8F /* OpalImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpalImagePicker/OpalImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpalImagePicker/OpalImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OpalImagePicker/OpalImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = OpalImagePicker;
+				PRODUCT_NAME = OpalImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67977A08DE56DA0F8B3B1F50C337152E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A46A2C0A05399142B30E5146F9B8ECBE /* AXPhotoViewer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AXPhotoViewer/AXPhotoViewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AXPhotoViewer/AXPhotoViewer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AXPhotoViewer/AXPhotoViewer.modulemap";
+				PRODUCT_MODULE_NAME = AXPhotoViewer;
+				PRODUCT_NAME = AXPhotoViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		683EE7504E9C0B79C2F38DADF6D240C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBDF07FF6E5A37F3221E11683D84C8F /* OpalImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OpalImagePicker";
+				IBSC_MODULE = OpalImagePicker;
+				INFOPLIST_FILE = "Target Support Files/OpalImagePicker/ResourceBundle-OpalImagePickerResources-OpalImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OpalImagePickerResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7A3917C6F3F1588A95DD0A53EA6B0636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBDF07FF6E5A37F3221E11683D84C8F /* OpalImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpalImagePicker/OpalImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpalImagePicker/OpalImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OpalImagePicker/OpalImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = OpalImagePicker;
+				PRODUCT_NAME = OpalImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87E70CEE07CBE5F5641D4957F3541322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5418A80AA2691A3465BDAC1B06A4E88C /* FLAnimatedImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
+				PRODUCT_MODULE_NAME = FLAnimatedImage;
+				PRODUCT_NAME = FLAnimatedImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAA0AF27D04DBF295C94C72F7267DA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBDF07FF6E5A37F3221E11683D84C8F /* OpalImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OpalImagePicker";
+				IBSC_MODULE = OpalImagePicker;
+				INFOPLIST_FILE = "Target Support Files/OpalImagePicker/ResourceBundle-OpalImagePickerResources-OpalImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OpalImagePickerResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C5687BFB24E026EF8C567F676A7CAF5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C08F822CE25F1B4CA2C9B33D64BDB354 /* Pods-keep.release.xcconfig */;
 			buildSettings = {
@@ -888,9 +1341,9 @@
 			};
 			name = Release;
 		};
-		28A17C9F7D26D9BED5DB86295F6ABE56 /* Release */ = {
+		CA0E2FEA1E5AF20139876C61CE72CAFA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E627C18DCA45B5E05CBFE424B40FEA08 /* FLAnimatedImage.xcconfig */;
+			baseConfigurationReference = A46A2C0A05399142B30E5146F9B8ECBE /* AXPhotoViewer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -901,8 +1354,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AXPhotoViewer/AXPhotoViewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AXPhotoViewer/AXPhotoViewer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -910,9 +1363,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
-				PRODUCT_MODULE_NAME = FLAnimatedImage;
-				PRODUCT_NAME = FLAnimatedImage;
+				MODULEMAP_FILE = "Target Support Files/AXPhotoViewer/AXPhotoViewer.modulemap";
+				PRODUCT_MODULE_NAME = AXPhotoViewer;
+				PRODUCT_NAME = AXPhotoViewer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -924,7 +1377,7 @@
 			};
 			name = Release;
 		};
-		344115463F277EF6D24ED486F9917853 /* Debug */ = {
+		EFF2EC30BC926C55B8DA250FBF6977B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 326B09BFC132A6C0C8EF8F381BA77FD7 /* Pods-keep.debug.xcconfig */;
 			buildSettings = {
@@ -961,148 +1414,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		594588AEEE6AEF9104AD8EBA16A418FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 279F2EAAE13E022F41DE239FE79FDB44 /* AXStateButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AXStateButton/AXStateButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AXStateButton/AXStateButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AXStateButton/AXStateButton.modulemap";
-				PRODUCT_MODULE_NAME = AXStateButton;
-				PRODUCT_NAME = AXStateButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		67977A08DE56DA0F8B3B1F50C337152E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 731EA26F15300AFD1FA8B195EDDC5741 /* AXPhotoViewer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AXPhotoViewer/AXPhotoViewer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AXPhotoViewer/AXPhotoViewer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AXPhotoViewer/AXPhotoViewer.modulemap";
-				PRODUCT_MODULE_NAME = AXPhotoViewer;
-				PRODUCT_NAME = AXPhotoViewer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		87E70CEE07CBE5F5641D4957F3541322 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E627C18DCA45B5E05CBFE424B40FEA08 /* FLAnimatedImage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
-				PRODUCT_MODULE_NAME = FLAnimatedImage;
-				PRODUCT_NAME = FLAnimatedImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CA0E2FEA1E5AF20139876C61CE72CAFA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 731EA26F15300AFD1FA8B195EDDC5741 /* AXPhotoViewer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AXPhotoViewer/AXPhotoViewer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AXPhotoViewer/AXPhotoViewer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AXPhotoViewer/AXPhotoViewer.modulemap";
-				PRODUCT_MODULE_NAME = AXPhotoViewer;
-				PRODUCT_NAME = AXPhotoViewer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1203,11 +1514,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD059C58FE10312E5BB25309AB52DD5F /* Build configuration list for PBXNativeTarget "Pods-keep" */ = {
+		9A2AF665B9DDD519E362A7B3687FF637 /* Build configuration list for PBXNativeTarget "OpalImagePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				344115463F277EF6D24ED486F9917853 /* Debug */,
-				17D90F13ECDA2A38EF9FD5995233CA79 /* Release */,
+				7A3917C6F3F1588A95DD0A53EA6B0636 /* Debug */,
+				5EBDEDA861FBB114DB6ED7F10310B2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7D1587BE544A91AF85A39047185B42 /* Build configuration list for PBXNativeTarget "Pods-keep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF2EC30BC926C55B8DA250FBF6977B8 /* Debug */,
+				C5687BFB24E026EF8C567F676A7CAF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C93D28A53732A0D6C1FED3DDEF8781 /* Build configuration list for PBXNativeTarget "OpalImagePicker-OpalImagePickerResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA0AF27D04DBF295C94C72F7267DA7E /* Debug */,
+				683EE7504E9C0B79C2F38DADF6D240C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
