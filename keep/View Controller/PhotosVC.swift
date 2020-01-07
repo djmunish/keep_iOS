@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AXPhotoViewer
 
 class photocell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
@@ -20,6 +21,7 @@ class PhotosVC: UIViewController ,UICollectionViewDelegate , UICollectionViewDat
 
     var updateList:(() -> Void)?
     var imageArray = [PhotoModel]()
+    var photoAXArray = [AXPhoto]()
     @IBOutlet weak var clcView: UICollectionView!
     
     override func viewDidLoad() {
@@ -29,9 +31,23 @@ class PhotosVC: UIViewController ,UICollectionViewDelegate , UICollectionViewDat
         alignedFlowLayout?.verticalAlignment = .top
         // Do any additional setup after loading the view.
         updateData()
+        conversion()
         imagePicker.delegate = self
-
     }
+    
+    func conversion(){
+        
+        for photo in imageArray{
+            
+            let axPhoto = AXPhoto(attributedTitle: NSAttributedString(
+                string: photo.imageName!),
+                image: photo.image
+            )
+            photoAXArray.append(axPhoto)
+        }
+        
+    }
+    
     
     func updateData(){
         imageArray = FileRW.shared.readFiles(folderName:"Photos")
@@ -50,7 +66,7 @@ class PhotosVC: UIViewController ,UICollectionViewDelegate , UICollectionViewDat
     
     //MARK: - CollectionView DataSoure and Delegate
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return self.imageArray.count
+        return self.photoAXArray.count
     }
 
     // make a cell for each cell index path
@@ -68,15 +84,21 @@ class PhotosVC: UIViewController ,UICollectionViewDelegate , UICollectionViewDat
 
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ViewPhotoVC") as! ViewPhotoVC
-        let Photo = self.imageArray[indexPath.row]
-        vc.image = Photo
-        vc.updateList = {
-            self.imageArray.removeAll()
-            self.updateData()
-            self.clcView.reloadData()
-        }
-        self.navigationController?.pushViewController(vc, animated: true)
+//        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ViewPhotoVC") as! ViewPhotoVC
+//        let Photo = self.imageArray[indexPath.row]
+//        vc.image = Photo
+//        vc.updateList = {
+//            self.imageArray.removeAll()
+//            self.updateData()
+//            self.clcView.reloadData()
+//        }
+//        self.navigationController?.pushViewController(vc, animated: true)
+        
+        
+        let dataSource = AXPhotosDataSource(photos: self.photoAXArray, initialPhotoIndex: indexPath.row)
+        let photosViewController = AXPhotosViewController(dataSource: dataSource, pagingConfig: nil, transitionInfo: nil)
+        photosViewController.modalPresentationStyle = .fullScreen
+        self.present(photosViewController, animated: true)
     }
     
 

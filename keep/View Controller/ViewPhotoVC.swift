@@ -186,3 +186,4 @@ extension ViewPhotoVC: UIGestureRecognizerDelegate {
         }
     }
 }
+

@@ -20,9 +20,12 @@
 		58CEB1B123B22D6B004CAA7F /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CEB1B023B22D6B004CAA7F /* PhotoPicker.swift */; };
 		58CEB1B323B23CFA004CAA7F /* FileRW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CEB1B223B23CFA004CAA7F /* FileRW.swift */; };
 		58F37DC823B10AFD00F2037D /* AlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F37DC723B10AFC00F2037D /* AlignedCollectionViewFlowLayout.swift */; };
+		9FAD67E81B64467F000BF257 /* Pods_keep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FFBFD2F2B04F07042E9F5E /* Pods_keep.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		258DCD0454BA1B2A6EF8DD7E /* Pods-keep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keep.debug.xcconfig"; path = "Target Support Files/Pods-keep/Pods-keep.debug.xcconfig"; sourceTree = "<group>"; };
+		32FFBFD2F2B04F07042E9F5E /* Pods_keep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_keep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58433BD123AEA9E1006E5CB3 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		585B0E6D23AF6BF7000046B8 /* FilesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesVC.swift; sourceTree = "<group>"; };
 		5861C9DE23AD546C005C9E04 /* keep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keep.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +41,7 @@
 		58CEB1B023B22D6B004CAA7F /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		58CEB1B223B23CFA004CAA7F /* FileRW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileRW.swift; sourceTree = "<group>"; };
 		58F37DC723B10AFC00F2037D /* AlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		B4DBC8B0F3CB9CEEC7881D5B /* Pods-keep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keep.release.xcconfig"; path = "Target Support Files/Pods-keep/Pods-keep.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,17 +49,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FAD67E81B64467F000BF257 /* Pods_keep.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		342EFEF14BA7188DA483FA10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				258DCD0454BA1B2A6EF8DD7E /* Pods-keep.debug.xcconfig */,
+				B4DBC8B0F3CB9CEEC7881D5B /* Pods-keep.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5861C9D523AD546C005C9E04 = {
 			isa = PBXGroup;
 			children = (
 				5861C9E023AD546C005C9E04 /* keep */,
 				5861C9DF23AD546C005C9E04 /* Products */,
+				342EFEF14BA7188DA483FA10 /* Pods */,
+				BB7E87E88F746B110178C22C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +121,14 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		BB7E87E88F746B110178C22C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32FFBFD2F2B04F07042E9F5E /* Pods_keep.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -111,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5861C9F223AD546E005C9E04 /* Build configuration list for PBXNativeTarget "keep" */;
 			buildPhases = (
+				7EC6CEAB304F033A71C302E3 /* [CP] Check Pods Manifest.lock */,
 				5861C9DA23AD546C005C9E04 /* Sources */,
 				5861C9DB23AD546C005C9E04 /* Frameworks */,
 				5861C9DC23AD546C005C9E04 /* Resources */,
+				2A775EAC23150F9887FD41E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +196,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A775EAC23150F9887FD41E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-keep/Pods-keep-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-keep/Pods-keep-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-keep/Pods-keep-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EC6CEAB304F033A71C302E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-keep-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5861C9DA23AD546C005C9E04 /* Sources */ = {
@@ -326,18 +395,21 @@
 		};
 		5861C9F323AD546E005C9E04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258DCD0454BA1B2A6EF8DD7E /* Pods-keep.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MX7G2R2T3E;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kevin Dalvi (BBGN575922)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BBGN575922;
 				INFOPLIST_FILE = keep/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.keep.keep;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovationstage.reelnow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ReelNow_Prod;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -345,18 +417,21 @@
 		};
 		5861C9F423AD546E005C9E04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4DBC8B0F3CB9CEEC7881D5B /* Pods-keep.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MX7G2R2T3E;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kevin Dalvi (BBGN575922)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BBGN575922;
 				INFOPLIST_FILE = keep/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.keep.keep;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovationstage.reelnow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ReelNow_Prod;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
