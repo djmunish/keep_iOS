@@ -18,6 +18,7 @@ Many apps are available on app store with the feature to store photos with passc
 4) Share Photo on various app with ```iPhone Sharing Sheet```.
 5) Delete Photo from app.
 6)  No ```http requests``` for posting data on server.
+7) Select multiple photos from Camera roll upto 10 photos.
 
 ### Installing the app
 1 Clone the ```repository```. </br>
@@ -26,8 +27,7 @@ Many apps are available on app store with the feature to store photos with passc
 
 
 ### Upcoming Features
-1) Select multiple photos from Camera roll.
-2) Click Photo using Camera.
-3) Secure Videos too.
+1) Click Photo using Camera.
+2) Secure Videos too.
 
 
